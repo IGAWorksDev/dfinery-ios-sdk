@@ -17,13 +17,13 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "DfinerySDK",
-            url: "https://github.com/IGAWorksDev/dfinery-ios-sdk/releases/download/2.0.0/DfinerySDK.xcframework.zip",
-            checksum: "57f288c51e0e92fa61aafe40c399052565b528a1ce93d75cb6219bc8fdd921e0"
+            url: "https://github.com/IGAWorksDev/dfinery-ios-sdk/releases/download/2.1.0/DfinerySDK.xcframework.zip",
+            checksum: "97ddf0e2ee96718cde785e1a738c4c66389bddffd6efd99cadd531f211df1e29"
         ),
         .binaryTarget(
             name: "DfinerySDKServiceExtension",
-            url: "https://github.com/IGAWorksDev/dfinery-ios-sdk/releases/download/2.0.0/DfinerySDKServiceExtension.xcframework.zip",
-            checksum: "a16890028a5021147df6e287b257b12f3c5545045aba27a98526bc902ab94182"
+            url: "https://github.com/IGAWorksDev/dfinery-ios-sdk/releases/download/2.1.0/DfinerySDKServiceExtension.xcframework.zip",
+            checksum: "2d469c60131e8b3e61c90f69d5d4a2453017e998fb59e66d70bea48e9e489968"
         )
     ]
 )
