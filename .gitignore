@@ -1,0 +1,54 @@
+# macOS metadata
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+
+# Xcode user data
+DerivedData/
+*.xcuserdata/
+*.xcuserdatad/
+*.xcuserstate
+*.xcscmblueprint
+*.xccheckout
+*.moved-aside
+
+# Swift Package Manager
+.swiftpm/
+.build/
+Packages/
+Package.resolved
+
+# Carthage
+Carthage/Build/
+
+# CocoaPods
+Pods/
+Podfile.lock
+
+# Binary artifacts
+*.xcframework
+*.framework
+*.dylib
+*.a
+
+# Archives & logs
+*.ipa
+*.xcarchive
+*.log
+
+# Swift playgrounds
+timeline.xctimeline
+playground.xcworkspace
+
+# Sample app generated files
+sample/**/Flutter/ephemeral/
+sample/**/Pods/
+sample/**/Podfile.lock
+
+# Tooling
+.vscode/
+.idea/
+*.orig
+*.rej
+*.swp
