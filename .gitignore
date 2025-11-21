@@ -31,6 +31,10 @@ Podfile.lock
 *.framework
 *.dylib
 *.a
+# Keep bundled sample xcframeworks under the Swift sample (and their contents)
+!sample/Swift/DfinerySwiftSample
+!sample/Swift/DfinerySwiftSample/*.xcframework
+!sample/Swift/DfinerySwiftSample/*.xcframework/**
 
 # Archives & logs
 *.ipa

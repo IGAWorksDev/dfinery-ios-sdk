@@ -1,0 +1,249 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "DfinerySDKServiceExtension",
+    "printedName": "DfinerySDKServiceExtension",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DfinerySDKServiceExtension",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DfinerySDKServiceExtension",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UserNotifications",
+        "printedName": "UserNotifications",
+        "declKind": "Import",
+        "moduleName": "DfinerySDKServiceExtension"
+      },
+      {
+        "kind": "Import",
+        "name": "os",
+        "printedName": "os",
+        "declKind": "Import",
+        "moduleName": "DfinerySDKServiceExtension"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DfineryServiceExtension",
+        "printedName": "DfineryServiceExtension",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "canHandle",
+            "printedName": "canHandle(content:contentHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UNMutableNotificationContent",
+                "printedName": "UserNotifications.UNMutableNotificationContent",
+                "usr": "c:objc(cs)UNMutableNotificationContent"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(UserNotifications.UNNotificationContent) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UNNotificationContent",
+                    "printedName": "UserNotifications.UNNotificationContent",
+                    "usr": "c:objc(cs)UNNotificationContent"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@DfinerySDKServiceExtension@objc(cs)DfineryServiceExtension(cm)canHandleWithContent:contentHandler:",
+            "mangledName": "$s26DfinerySDKServiceExtension0a7ServiceC0C9canHandle7content0G7HandlerSbSo28UNMutableNotificationContentC_ySo014UNNotificationK0CctFZ",
+            "moduleName": "DfinerySDKServiceExtension",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DfineryServiceExtension",
+                "printedName": "DfinerySDKServiceExtension.DfineryServiceExtension",
+                "usr": "c:@M@DfinerySDKServiceExtension@objc(cs)DfineryServiceExtension"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@DfinerySDKServiceExtension@objc(cs)DfineryServiceExtension(im)init",
+            "mangledName": "$s26DfinerySDKServiceExtension0a7ServiceC0CACycfc",
+            "moduleName": "DfinerySDKServiceExtension",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@DfinerySDKServiceExtension@objc(cs)DfineryServiceExtension",
+        "mangledName": "$s26DfinerySDKServiceExtension0a7ServiceC0C",
+        "moduleName": "DfinerySDKServiceExtension",
+        "declAttributes": [
+          "Final",
+          "AccessControl",
+          "ObjCMembers",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/runner\/work\/dfn-v2-dfinery-ios-sdk\/dfn-v2-dfinery-ios-sdk\/sdk-repo\/DfinerySDKServiceExtension\/ApSspImpDTO.swift",
+      "kind": "StringLiteral",
+      "offset": 241,
+      "length": 9,
+      "value": "\"AD_PUSH\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/dfn-v2-dfinery-ios-sdk\/dfn-v2-dfinery-ios-sdk\/sdk-repo\/DfinerySDKServiceExtension\/ApSspImpDTO.swift",
+      "kind": "StringLiteral",
+      "offset": 286,
+      "length": 5,
+      "value": "\"iOS\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/dfn-v2-dfinery-ios-sdk\/dfn-v2-dfinery-ios-sdk\/sdk-repo\/DfinerySDKServiceExtension\/DfineryServiceExtension.swift",
+      "kind": "StringLiteral",
+      "offset": 9007,
+      "length": 47,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/dfn-v2-dfinery-ios-sdk\/dfn-v2-dfinery-ios-sdk\/sdk-repo\/DfinerySDKServiceExtension\/DfineryServiceExtension.swift",
+      "kind": "StringLiteral",
+      "offset": 9042,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/dfn-v2-dfinery-ios-sdk\/dfn-v2-dfinery-ios-sdk\/sdk-repo\/DfinerySDKServiceExtension\/DfineryServiceExtension.swift",
+      "kind": "StringLiteral",
+      "offset": 9045,
+      "length": 1,
+      "value": "\".dfinery\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/dfn-v2-dfinery-ios-sdk\/dfn-v2-dfinery-ios-sdk\/sdk-repo\/DfinerySDKServiceExtension\/DfineryServiceExtension.swift",
+      "kind": "StringLiteral",
+      "offset": 9099,
+      "length": 11,
+      "value": "\"DfnLogger\""
+    }
+  ]
+}

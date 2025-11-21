@@ -1,0 +1,143 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.0.2 effective-5.10 (swiftlang-6.0.2.1.2 clang-1600.0.26.4)
+// swift-module-flags: -target x86_64-apple-ios12.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name DfinerySDK
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface
+import AdSupport
+import AppTrackingTransparency
+import CoreTelephony
+import Foundation
+import Swift
+import SystemConfiguration
+import UIKit
+import UserNotifications
+import WebKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+import os
+@objc @_inheritsConvenienceInitializers @objcMembers final public class DFConfig : ObjectiveC.NSObject {
+  @objc public static let IS_DEBUG: Swift.String
+  @objc public static let LOG_ENABLE: Swift.String
+  @objc override dynamic public init()
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers @objcMembers final public class DFEvent : ObjectiveC.NSObject {
+  @objc public static let SIGN_UP: Swift.String
+  @objc public static let PURCHASE: Swift.String
+  @objc public static let VIEW_HOME: Swift.String
+  @objc public static let VIEW_PRODUCT_DETAILS: Swift.String
+  @objc public static let ADD_TO_CART: Swift.String
+  @objc public static let ADD_TO_WISHLIST: Swift.String
+  @objc public static let REFUND: Swift.String
+  @objc public static let VIEW_SEARCH_RESULT: Swift.String
+  @objc public static let SHARE_PRODUCT: Swift.String
+  @objc public static let VIEW_LIST: Swift.String
+  @objc public static let VIEW_CART: Swift.String
+  @objc public static let ADD_PAYMENT_INFO: Swift.String
+  @objc public static let REMOVE_CART: Swift.String
+  @objc public static let LOGIN: Swift.String
+  @objc public static let LOGOUT: Swift.String
+  @objc override dynamic public init()
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers @objcMembers final public class DFEventProperty : ObjectiveC.NSObject {
+  @objc public static let DELIVERY_CHARGE: Swift.String
+  @objc public static let KEYWORD: Swift.String
+  @objc public static let ORDER_ID: Swift.String
+  @objc public static let PAYMENT_METHOD: Swift.String
+  @objc public static let SHARING_CHANNEL: Swift.String
+  @objc public static let SIGN_CHANNEL: Swift.String
+  @objc public static let TOTAL_PURCHASE_AMOUNT: Swift.String
+  @objc public static let TOTAL_REFUND_AMOUNT: Swift.String
+  @objc public static let DISCOUNT: Swift.String
+  @objc public static let ITEMS: Swift.String
+  @objc public static let ITEM_ID: Swift.String
+  @objc public static let ITEM_NAME: Swift.String
+  @objc public static let ITEM_PRICE: Swift.String
+  @objc public static let ITEM_QUANTITY: Swift.String
+  @objc public static let ITEM_DISCOUNT: Swift.String
+  @objc public static let ITEM_CATEGORY1: Swift.String
+  @objc public static let ITEM_CATEGORY2: Swift.String
+  @objc public static let ITEM_CATEGORY3: Swift.String
+  @objc public static let ITEM_CATEGORY4: Swift.String
+  @objc public static let ITEM_CATEGORY5: Swift.String
+  @objc override dynamic public init()
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers @objcMembers final public class DFGender : ObjectiveC.NSObject {
+  @objc public static let MALE: Swift.String
+  @objc public static let FEMALE: Swift.String
+  @objc public static let NONBINARY: Swift.String
+  @objc public static let OTHER: Swift.String
+  @objc override dynamic public init()
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers @objcMembers final public class DFUserProfile : ObjectiveC.NSObject {
+  @objc public static let NAME: Swift.String
+  @objc public static let BIRTH: Swift.String
+  @objc public static let MEMBERSHIP: Swift.String
+  @objc public static let GENDER: Swift.String
+  @objc @available(*, deprecated)
+  public static let PUSH_OPTIN: Swift.String
+  @objc public static let PUSH_ADS_OPTIN: Swift.String
+  @objc public static let KAKAO_ADS_OPTIN: Swift.String
+  @objc public static let SMS_ADS_OPTIN: Swift.String
+  @objc public static let PUSH_NIGHT_ADS_OPTIN: Swift.String
+  @objc override dynamic public init()
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers @objcMembers final public class DFIdentity : ObjectiveC.NSObject {
+  @objc public static let EXTERNAL_ID: Swift.String
+  @objc public static let EMAIL: Swift.String
+  @objc public static let PHONE_NO: Swift.String
+  @objc public static let KAKAO_USER_ID: Swift.String
+  @objc public static let LINE_USER_ID: Swift.String
+  @objc override dynamic public init()
+  @objc deinit
+}
+@usableFromInline
+internal protocol _AnyDecodable {
+  var value: Any { get }
+  init<T>(_ value: T?)
+}
+extension DfinerySDK._AnyDecodable {
+  public init(from decoder: any Swift.Decoder) throws
+}
+@usableFromInline
+internal protocol _AnyEncodable {
+  var value: Any { get }
+  init<T>(_ value: T?)
+}
+extension DfinerySDK._AnyEncodable {
+  public func encode(to encoder: any Swift.Encoder) throws
+}
+extension DfinerySDK._AnyEncodable {
+  public init(nilLiteral _: ())
+  public init(booleanLiteral value: Swift.Bool)
+  public init(integerLiteral value: Swift.Int)
+  public init(floatLiteral value: Swift.Double)
+  public init(extendedGraphemeClusterLiteral value: Swift.String)
+  public init(stringLiteral value: Swift.String)
+  public init(arrayLiteral elements: Any...)
+  public init(dictionaryLiteral elements: (Swift.AnyHashable, Any)...)
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc final public class Dfinery : ObjectiveC.NSObject {
+  @objc public static func shared() -> DfinerySDK.Dfinery
+  @objc final public func sdkInit(serviceId: Swift.String)
+  @objc(sdkInit:withConfig:) final public func sdkInit(serviceId: Swift.String, config: [Swift.String : Any])
+  @objc final public func logEvent(_ name: Swift.String)
+  final public func logEvent(_ name: Swift.String, properties: [Swift.String : Any])
+  @objc(logEvent:withProperties:) final public func logEvent(name: Swift.String, properties: [Swift.String : Any])
+  @objc(setUserProfileWithDict:) final public func set(userProfiles: [Swift.String : Any])
+  @objc(setUserProfileForKey:value:) final public func setUserProfile(key: Swift.String, value: Any?)
+  @objc(setIdentityWithDict:) final public func set(identities: [Swift.String : Swift.String])
+  @objc(setIdentityForKey:value:) final public func setIdentity(key: Swift.String, value: Swift.String?)
+  @objc final public func resetIdentity()
+  @objc(setPushTokenWithData:) final public func set(pushToken: Foundation.Data)
+  @objc final public func enableSDK()
+  @objc final public func disableSDK()
+  @objc final public func canHandleNotification(response: UserNotifications.UNNotificationResponse) -> Swift.Bool
+  @objc final public func canHandleForeground(_ notification: UserNotifications.UNNotification, completionHandler: @escaping (UserNotifications.UNNotificationPresentationOptions) -> ()) -> Swift.Bool
+  @_spi(Pendable) @objc final public func pend()
+  @objc deinit
+}

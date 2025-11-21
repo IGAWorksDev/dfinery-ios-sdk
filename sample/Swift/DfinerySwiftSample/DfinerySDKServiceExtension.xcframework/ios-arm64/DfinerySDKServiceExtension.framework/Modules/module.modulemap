@@ -1,0 +1,4 @@
+framework module DfinerySDKServiceExtension {
+  header "DfinerySDKServiceExtension.h"
+  requires objc
+}

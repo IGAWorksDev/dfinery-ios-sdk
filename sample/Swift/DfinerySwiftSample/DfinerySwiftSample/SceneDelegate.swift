@@ -29,13 +29,6 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
     //MARK: - push auth
     func sceneDidBecomeActive(_ scene: UIScene) {
-        UNUserNotificationCenter.current().requestAuthorization(options: [.alert, .sound]) { granted, err in
-           if granted {
-               DispatchQueue.main.async {
-                   UIApplication.shared.registerForRemoteNotifications()
-               }
-           }
-        }
     }
 
     func sceneWillResignActive(_ scene: UIScene) {

@@ -156,6 +156,18 @@ class ViewController: UIViewController {
                 self.dfinerySetMultipleIdentities()
             }
         }
+
+        addSection("Push") {
+            self.button("requestPushPermission") { _ in
+                UNUserNotificationCenter.current().requestAuthorization(options: [.alert, .sound]) { granted, err in
+                    if granted {
+                        DispatchQueue.main.async {
+                            UIApplication.shared.registerForRemoteNotifications()
+                        }
+                    }
+                }
+            }
+        }
     }
 
     private func addSection(_ title: String, builder: () -> Void) {
