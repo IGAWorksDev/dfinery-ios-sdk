@@ -129,6 +129,7 @@ extension DfinerySDK._AnyEncodable {
   final public func logEvent(_ name: Swift.String, properties: [Swift.String : Any])
   @objc(logEvent:withProperties:) final public func logEvent(name: Swift.String, properties: [Swift.String : Any])
   @objc(setUserProfileWithDict:) final public func set(userProfiles: [Swift.String : Any])
+  @available(*, deprecated, renamed: "set(userProfiles:)")
   @objc(setUserProfileForKey:value:) final public func setUserProfile(key: Swift.String, value: Any?)
   @objc(setIdentityWithDict:) final public func set(identities: [Swift.String : Swift.String])
   @objc(setIdentityForKey:value:) final public func setIdentity(key: Swift.String, value: Swift.String?)

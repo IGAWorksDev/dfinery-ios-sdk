@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |spec|
   spec.name         = "DfinerySDK"
-  spec.version      = "2.3.3"
+  spec.version      = "2.3.4"
   spec.platform = :ios
   spec.summary      = "DfinerySDK."
   spec.homepage     = "https://www.dfinery.ai/"
@@ -11,8 +11,8 @@ Pod::Spec.new do |spec|
   spec.license      = { :type => 'Commercial'}
   spec.author       = { "Jimmy" => "jimmy.kang@igaworks.com" }
   spec.source       = { 
-    :http => "https://github.com/IGAWorksDev/dfinery-ios-sdk/releases/download/v2.3.3/DfinerySDK.xcframework.zip",
-    :sha256 => '7cf4e1a2e97a1d487093927df2c893f3a9705eccbe4bcae8d81c0b58375af0f5'
+    :http => "https://github.com/IGAWorksDev/dfinery-ios-sdk/releases/download/v2.3.4/DfinerySDK.xcframework.zip",
+    :sha256 => '40abeb7b91cdb46a2691474d8db66a6dbbd8e0ba3f90ad7c3f49d420722ac52e'
   }
   spec.ios.deployment_target = '12.0'
 

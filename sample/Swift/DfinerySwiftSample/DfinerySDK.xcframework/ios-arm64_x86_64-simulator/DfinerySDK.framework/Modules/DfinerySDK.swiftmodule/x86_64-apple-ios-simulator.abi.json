@@ -143,6 +143,16 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DfinerySDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -188,6 +198,16 @@
         "printedName": "SystemConfiguration",
         "declKind": "Import",
         "moduleName": "DfinerySDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DfinerySDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
       },
       {
         "kind": "Import",
@@ -4036,6 +4056,16 @@
         ]
       },
       {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DfinerySDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
         "kind": "TypeDecl",
         "name": "_AnyDecodable",
         "printedName": "_AnyDecodable",
@@ -4963,6 +4993,36 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DfinerySDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DfinerySDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DfinerySDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -5430,11 +5490,13 @@
             "usr": "c:@M@DfinerySDK@objc(cs)Dfinery(im)setUserProfileForKey:value:",
             "mangledName": "$s10DfinerySDK0A0C14setUserProfile3key5valueySS_ypSgtF",
             "moduleName": "DfinerySDK",
+            "deprecated": true,
             "objc_name": "setUserProfileForKey:value:",
             "declAttributes": [
               "Final",
               "AccessControl",
-              "ObjC"
+              "ObjC",
+              "Available"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -6404,65 +6466,79 @@
     {
       "filePath": "\/Users\/runner\/work\/dfn-v2-dfinery-ios-sdk\/dfn-v2-dfinery-ios-sdk\/sdk-repo\/DfinerySDK\/Application\/DependencyProvider.swift",
       "kind": "StringLiteral",
-      "offset": 949,
+      "offset": 1004,
       "length": 22,
       "value": "\"com.dfinery.sdkState\""
     },
     {
       "filePath": "\/Users\/runner\/work\/dfn-v2-dfinery-ios-sdk\/dfn-v2-dfinery-ios-sdk\/sdk-repo\/DfinerySDK\/Application\/DependencyProvider.swift",
       "kind": "StringLiteral",
-      "offset": 1214,
+      "offset": 1269,
       "length": 22,
       "value": "\"com.dfinery.identity\""
     },
     {
       "filePath": "\/Users\/runner\/work\/dfn-v2-dfinery-ios-sdk\/dfn-v2-dfinery-ios-sdk\/sdk-repo\/DfinerySDK\/Application\/DependencyProvider.swift",
       "kind": "StringLiteral",
-      "offset": 1481,
+      "offset": 1536,
       "length": 25,
       "value": "\"com.dfinery.cachedEvent\""
     },
     {
       "filePath": "\/Users\/runner\/work\/dfn-v2-dfinery-ios-sdk\/dfn-v2-dfinery-ios-sdk\/sdk-repo\/DfinerySDK\/Application\/DependencyProvider.swift",
       "kind": "StringLiteral",
-      "offset": 1752,
+      "offset": 1807,
       "length": 23,
       "value": "\"com.dfinery.SdkConfig\""
     },
     {
       "filePath": "\/Users\/runner\/work\/dfn-v2-dfinery-ios-sdk\/dfn-v2-dfinery-ios-sdk\/sdk-repo\/DfinerySDK\/Application\/DependencyProvider.swift",
       "kind": "StringLiteral",
-      "offset": 1909,
+      "offset": 1964,
       "length": 24,
       "value": "\"com.dfinery.serverRule\""
     },
     {
       "filePath": "\/Users\/runner\/work\/dfn-v2-dfinery-ios-sdk\/dfn-v2-dfinery-ios-sdk\/sdk-repo\/DfinerySDK\/Application\/DependencyProvider.swift",
       "kind": "StringLiteral",
-      "offset": 2228,
+      "offset": 2283,
       "length": 27,
       "value": "\"com.dfinery.deviceInfoKey\""
     },
     {
       "filePath": "\/Users\/runner\/work\/dfn-v2-dfinery-ios-sdk\/dfn-v2-dfinery-ios-sdk\/sdk-repo\/DfinerySDK\/Application\/DependencyProvider.swift",
       "kind": "StringLiteral",
-      "offset": 2760,
+      "offset": 2815,
       "length": 26,
       "value": "\"com.dfinery.inappmessage\""
     },
     {
       "filePath": "\/Users\/runner\/work\/dfn-v2-dfinery-ios-sdk\/dfn-v2-dfinery-ios-sdk\/sdk-repo\/DfinerySDK\/Application\/DependencyProvider.swift",
       "kind": "StringLiteral",
-      "offset": 2920,
+      "offset": 2975,
       "length": 30,
       "value": "\"com.dfinery.inAppMessageInfo\""
     },
     {
       "filePath": "\/Users\/runner\/work\/dfn-v2-dfinery-ios-sdk\/dfn-v2-dfinery-ios-sdk\/sdk-repo\/DfinerySDK\/Application\/DependencyProvider.swift",
       "kind": "StringLiteral",
-      "offset": 3106,
+      "offset": 3161,
       "length": 39,
       "value": "\"com.dfinery.inAppMessageCampaginState\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/dfn-v2-dfinery-ios-sdk\/dfn-v2-dfinery-ios-sdk\/sdk-repo\/DfinerySDK\/Application\/DependencyProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 3608,
+      "length": 29,
+      "value": "\"com.dfinery.snapshot.events\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/dfn-v2-dfinery-ios-sdk\/dfn-v2-dfinery-ios-sdk\/sdk-repo\/DfinerySDK\/Application\/DependencyProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 3783,
+      "length": 33,
+      "value": "\"com.dfinery.snapshot.identities\""
     },
     {
       "filePath": "\/Users\/runner\/work\/dfn-v2-dfinery-ios-sdk\/dfn-v2-dfinery-ios-sdk\/sdk-repo\/DfinerySDK\/Domain\/Interface\/ServerResponse.swift",
@@ -6530,14 +6606,14 @@
     {
       "filePath": "\/Users\/runner\/work\/dfn-v2-dfinery-ios-sdk\/dfn-v2-dfinery-ios-sdk\/sdk-repo\/DfinerySDK\/Domain\/UseCase\/LogEventUseCase.swift",
       "kind": "StringLiteral",
-      "offset": 767,
+      "offset": 830,
       "length": 30,
       "value": "\"com.dfinery.LogEventJobQueue\""
     },
     {
       "filePath": "\/Users\/runner\/work\/dfn-v2-dfinery-ios-sdk\/dfn-v2-dfinery-ios-sdk\/sdk-repo\/DfinerySDK\/Domain\/UseCase\/LogEventUseCase.swift",
       "kind": "IntegerLiteral",
-      "offset": 826,
+      "offset": 889,
       "length": 1,
       "value": "0"
     },

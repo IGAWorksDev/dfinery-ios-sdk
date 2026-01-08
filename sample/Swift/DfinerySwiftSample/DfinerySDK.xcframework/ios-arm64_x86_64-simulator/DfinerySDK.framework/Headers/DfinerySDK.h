@@ -487,7 +487,7 @@ SWIFT_CLASS("_TtC10DfinerySDK7Dfinery")
 /// Objc only
 - (void)logEvent:(NSString * _Nonnull)name withProperties:(NSDictionary<NSString *, id> * _Nonnull)properties;
 - (void)setUserProfileWithDict:(NSDictionary<NSString *, id> * _Nonnull)userProfiles;
-- (void)setUserProfileForKey:(NSString * _Nonnull)key value:(id _Nullable)value;
+- (void)setUserProfileForKey:(NSString * _Nonnull)key value:(id _Nullable)value SWIFT_DEPRECATED_MSG("", "setUserProfileWithDict:");
 - (void)setIdentityWithDict:(NSDictionary<NSString *, NSString *> * _Nonnull)identities;
 - (void)setIdentityForKey:(NSString * _Nonnull)key value:(NSString * _Nullable)value;
 - (void)resetIdentity;
@@ -997,7 +997,7 @@ SWIFT_CLASS("_TtC10DfinerySDK7Dfinery")
 /// Objc only
 - (void)logEvent:(NSString * _Nonnull)name withProperties:(NSDictionary<NSString *, id> * _Nonnull)properties;
 - (void)setUserProfileWithDict:(NSDictionary<NSString *, id> * _Nonnull)userProfiles;
-- (void)setUserProfileForKey:(NSString * _Nonnull)key value:(id _Nullable)value;
+- (void)setUserProfileForKey:(NSString * _Nonnull)key value:(id _Nullable)value SWIFT_DEPRECATED_MSG("", "setUserProfileWithDict:");
 - (void)setIdentityWithDict:(NSDictionary<NSString *, NSString *> * _Nonnull)identities;
 - (void)setIdentityForKey:(NSString * _Nonnull)key value:(NSString * _Nullable)value;
 - (void)resetIdentity;
