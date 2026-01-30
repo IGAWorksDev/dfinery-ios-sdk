@@ -9,8 +9,26 @@ import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
 import os
+extension DfinerySDKServiceExtension.DFLogLevel : Swift.Comparable {
+  public static func < (lhs: DfinerySDKServiceExtension.DFLogLevel, rhs: DfinerySDKServiceExtension.DFLogLevel) -> Swift.Bool
+}
+@objc(DFNSELogLevel) public enum DFLogLevel : Swift.Int {
+  case error = 6
+  case warning = 5
+  case info = 4
+  case debug = 3
+  case verbose = 2
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
 @objc @_inheritsConvenienceInitializers @objcMembers final public class DfineryServiceExtension : ObjectiveC.NSObject {
+  @objc public static func enableLogging(level: DfinerySDKServiceExtension.DFLogLevel)
   @objc public static func canHandle(content: UserNotifications.UNMutableNotificationContent, contentHandler: @escaping ((UserNotifications.UNNotificationContent) -> Swift.Void)) -> Swift.Bool
   @objc override dynamic public init()
   @objc deinit
 }
+extension DfinerySDKServiceExtension.DFLogLevel : Swift.Hashable {}
+extension DfinerySDKServiceExtension.DFLogLevel : Swift.RawRepresentable {}

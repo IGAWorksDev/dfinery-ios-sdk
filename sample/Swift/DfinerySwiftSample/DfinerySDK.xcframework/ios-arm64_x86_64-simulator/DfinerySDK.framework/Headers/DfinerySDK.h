@@ -311,9 +311,10 @@ SWIFT_CLASS("_TtC10DfinerySDK8DFConfig")
 /// value : Bool
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _Nonnull IS_DEBUG;)
 + (NSString * _Nonnull)IS_DEBUG SWIFT_WARN_UNUSED_RESULT;
-/// value : Bool
-SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _Nonnull LOG_ENABLE;)
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _Nonnull LOG_ENABLE SWIFT_DEPRECATED_MSG("Use {DFConfig.LOG_LEVEL: DFLogLevel}", "LOG_LEVEL");)
 + (NSString * _Nonnull)LOG_ENABLE SWIFT_WARN_UNUSED_RESULT;
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _Nonnull LOG_LEVEL;)
++ (NSString * _Nonnull)LOG_LEVEL SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
@@ -447,6 +448,14 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _No
 + (NSString * _Nonnull)LINE_USER_ID SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
+
+typedef SWIFT_ENUM(NSInteger, DFLogLevel, open) {
+  DFLogLevelError = 6,
+  DFLogLevelWarning = 5,
+  DFLogLevelInfo = 4,
+  DFLogLevelDebug = 3,
+  DFLogLevelVerbose = 2,
+};
 
 
 SWIFT_CLASS("_TtC10DfinerySDK13DFUserProfile")
@@ -821,9 +830,10 @@ SWIFT_CLASS("_TtC10DfinerySDK8DFConfig")
 /// value : Bool
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _Nonnull IS_DEBUG;)
 + (NSString * _Nonnull)IS_DEBUG SWIFT_WARN_UNUSED_RESULT;
-/// value : Bool
-SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _Nonnull LOG_ENABLE;)
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _Nonnull LOG_ENABLE SWIFT_DEPRECATED_MSG("Use {DFConfig.LOG_LEVEL: DFLogLevel}", "LOG_LEVEL");)
 + (NSString * _Nonnull)LOG_ENABLE SWIFT_WARN_UNUSED_RESULT;
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _Nonnull LOG_LEVEL;)
++ (NSString * _Nonnull)LOG_LEVEL SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
@@ -957,6 +967,14 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _No
 + (NSString * _Nonnull)LINE_USER_ID SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
+
+typedef SWIFT_ENUM(NSInteger, DFLogLevel, open) {
+  DFLogLevelError = 6,
+  DFLogLevelWarning = 5,
+  DFLogLevelInfo = 4,
+  DFLogLevelDebug = 3,
+  DFLogLevelVerbose = 2,
+};
 
 
 SWIFT_CLASS("_TtC10DfinerySDK13DFUserProfile")
