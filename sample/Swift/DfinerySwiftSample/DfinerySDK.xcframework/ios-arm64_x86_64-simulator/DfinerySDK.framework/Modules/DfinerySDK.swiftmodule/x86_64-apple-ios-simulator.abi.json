@@ -365,12 +365,13 @@
             "mangledName": "$s10DfinerySDK8DFConfigC10LOG_ENABLESSvpZ",
             "moduleName": "DfinerySDK",
             "static": true,
+            "deprecated": true,
             "declAttributes": [
               "HasInitialValue",
               "Final",
               "HasStorage",
               "AccessControl",
-              "RawDocComment",
+              "Available",
               "ObjC"
             ],
             "isLet": true,
@@ -391,6 +392,59 @@
                 "declKind": "Accessor",
                 "usr": "c:@M@DfinerySDK@objc(cs)DFConfig(cm)LOG_ENABLE",
                 "mangledName": "$s10DfinerySDK8DFConfigC10LOG_ENABLESSvgZ",
+                "moduleName": "DfinerySDK",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "LOG_LEVEL",
+            "printedName": "LOG_LEVEL",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@DfinerySDK@objc(cs)DFConfig(cpy)LOG_LEVEL",
+            "mangledName": "$s10DfinerySDK8DFConfigC9LOG_LEVELSSvpZ",
+            "moduleName": "DfinerySDK",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@DfinerySDK@objc(cs)DFConfig(cm)LOG_LEVEL",
+                "mangledName": "$s10DfinerySDK8DFConfigC9LOG_LEVELSSvgZ",
                 "moduleName": "DfinerySDK",
                 "static": true,
                 "implicit": true,
@@ -507,6 +561,393 @@
             "printedName": "CustomDebugStringConvertible",
             "usr": "s:s28CustomDebugStringConvertibleP",
             "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DFLogLevel",
+        "printedName": "DFLogLevel",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "error",
+            "printedName": "error",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DfinerySDK.DFLogLevel.Type) -> DfinerySDK.DFLogLevel",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DFLogLevel",
+                    "printedName": "DfinerySDK.DFLogLevel",
+                    "usr": "c:@M@DfinerySDK@E@DFLogLevel"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DfinerySDK.DFLogLevel.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DFLogLevel",
+                        "printedName": "DfinerySDK.DFLogLevel",
+                        "usr": "c:@M@DfinerySDK@E@DFLogLevel"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@DfinerySDK@E@DFLogLevel@DFLogLevelError",
+            "mangledName": "$s10DfinerySDK10DFLogLevelO5erroryA2CmF",
+            "moduleName": "DfinerySDK",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 0
+          },
+          {
+            "kind": "Var",
+            "name": "warning",
+            "printedName": "warning",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DfinerySDK.DFLogLevel.Type) -> DfinerySDK.DFLogLevel",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DFLogLevel",
+                    "printedName": "DfinerySDK.DFLogLevel",
+                    "usr": "c:@M@DfinerySDK@E@DFLogLevel"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DfinerySDK.DFLogLevel.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DFLogLevel",
+                        "printedName": "DfinerySDK.DFLogLevel",
+                        "usr": "c:@M@DfinerySDK@E@DFLogLevel"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@DfinerySDK@E@DFLogLevel@DFLogLevelWarning",
+            "mangledName": "$s10DfinerySDK10DFLogLevelO7warningyA2CmF",
+            "moduleName": "DfinerySDK",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 1
+          },
+          {
+            "kind": "Var",
+            "name": "info",
+            "printedName": "info",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DfinerySDK.DFLogLevel.Type) -> DfinerySDK.DFLogLevel",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DFLogLevel",
+                    "printedName": "DfinerySDK.DFLogLevel",
+                    "usr": "c:@M@DfinerySDK@E@DFLogLevel"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DfinerySDK.DFLogLevel.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DFLogLevel",
+                        "printedName": "DfinerySDK.DFLogLevel",
+                        "usr": "c:@M@DfinerySDK@E@DFLogLevel"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@DfinerySDK@E@DFLogLevel@DFLogLevelInfo",
+            "mangledName": "$s10DfinerySDK10DFLogLevelO4infoyA2CmF",
+            "moduleName": "DfinerySDK",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 2
+          },
+          {
+            "kind": "Var",
+            "name": "debug",
+            "printedName": "debug",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DfinerySDK.DFLogLevel.Type) -> DfinerySDK.DFLogLevel",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DFLogLevel",
+                    "printedName": "DfinerySDK.DFLogLevel",
+                    "usr": "c:@M@DfinerySDK@E@DFLogLevel"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DfinerySDK.DFLogLevel.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DFLogLevel",
+                        "printedName": "DfinerySDK.DFLogLevel",
+                        "usr": "c:@M@DfinerySDK@E@DFLogLevel"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@DfinerySDK@E@DFLogLevel@DFLogLevelDebug",
+            "mangledName": "$s10DfinerySDK10DFLogLevelO5debugyA2CmF",
+            "moduleName": "DfinerySDK",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 3
+          },
+          {
+            "kind": "Var",
+            "name": "verbose",
+            "printedName": "verbose",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DfinerySDK.DFLogLevel.Type) -> DfinerySDK.DFLogLevel",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DFLogLevel",
+                    "printedName": "DfinerySDK.DFLogLevel",
+                    "usr": "c:@M@DfinerySDK@E@DFLogLevel"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DfinerySDK.DFLogLevel.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DFLogLevel",
+                        "printedName": "DfinerySDK.DFLogLevel",
+                        "usr": "c:@M@DfinerySDK@E@DFLogLevel"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@DfinerySDK@E@DFLogLevel@DFLogLevelVerbose",
+            "mangledName": "$s10DfinerySDK10DFLogLevelO7verboseyA2CmF",
+            "moduleName": "DfinerySDK",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 4
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "DfinerySDK.DFLogLevel?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DFLogLevel",
+                    "printedName": "DfinerySDK.DFLogLevel",
+                    "usr": "c:@M@DfinerySDK@E@DFLogLevel"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:10DfinerySDK10DFLogLevelO8rawValueACSgSi_tcfc",
+            "mangledName": "$s10DfinerySDK10DFLogLevelO8rawValueACSgSi_tcfc",
+            "moduleName": "DfinerySDK",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10DfinerySDK10DFLogLevelO8rawValueSivp",
+            "mangledName": "$s10DfinerySDK10DFLogLevelO8rawValueSivp",
+            "moduleName": "DfinerySDK",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10DfinerySDK10DFLogLevelO8rawValueSivg",
+                "mangledName": "$s10DfinerySDK10DFLogLevelO8rawValueSivg",
+                "moduleName": "DfinerySDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "<",
+            "printedName": "<(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "DFLogLevel",
+                "printedName": "DfinerySDK.DFLogLevel",
+                "usr": "c:@M@DfinerySDK@E@DFLogLevel"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "DFLogLevel",
+                "printedName": "DfinerySDK.DFLogLevel",
+                "usr": "c:@M@DfinerySDK@E@DFLogLevel"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10DfinerySDK10DFLogLevelO1loiySbAC_ACtFZ",
+            "mangledName": "$s10DfinerySDK10DFLogLevelO1loiySbAC_ACtFZ",
+            "moduleName": "DfinerySDK",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "c:@M@DfinerySDK@E@DFLogLevel",
+        "mangledName": "$s10DfinerySDK10DFLogLevelO",
+        "moduleName": "DfinerySDK",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "enumRawTypeName": "Int",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Comparable",
+            "printedName": "Comparable",
+            "usr": "s:SL",
+            "mangledName": "$sSL"
           }
         ]
       },
@@ -4623,6 +5064,33 @@
       },
       {
         "kind": "Import",
+        "name": "os",
+        "printedName": "os",
+        "declKind": "Import",
+        "moduleName": "DfinerySDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DfinerySDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DfinerySDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -5995,6 +6463,27 @@
       "value": "false"
     },
     {
+      "filePath": "\/Users\/runner\/work\/dfn-v2-dfinery-ios-sdk\/dfn-v2-dfinery-ios-sdk\/sdk-repo\/DfinerySDK\/InAppMessage\/DefaultInAppMessageWindowManager.swift",
+      "kind": "StringLiteral",
+      "offset": 752,
+      "length": 14,
+      "value": "\"inAppMessage\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/dfn-v2-dfinery-ios-sdk\/dfn-v2-dfinery-ios-sdk\/sdk-repo\/DfinerySDK\/Domain\/UseCase\/ResetIdentityUseCase.swift",
+      "kind": "StringLiteral",
+      "offset": 676,
+      "length": 15,
+      "value": "\"resetIdentity\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/dfn-v2-dfinery-ios-sdk\/dfn-v2-dfinery-ios-sdk\/sdk-repo\/DfinerySDK\/Domain\/UseCase\/SetUserProfileUseCase.swift",
+      "kind": "StringLiteral",
+      "offset": 451,
+      "length": 16,
+      "value": "\"setUserProfile\""
+    },
+    {
       "filePath": "\/Users\/runner\/work\/dfn-v2-dfinery-ios-sdk\/dfn-v2-dfinery-ios-sdk\/sdk-repo\/DfinerySDK\/Domain\/Model\/InAppMessageOperator.swift",
       "kind": "StringLiteral",
       "offset": 713,
@@ -6067,399 +6556,462 @@
     {
       "filePath": "\/Users\/runner\/work\/dfn-v2-dfinery-ios-sdk\/dfn-v2-dfinery-ios-sdk\/sdk-repo\/DfinerySDK\/Public\/DfienryConstant.swift",
       "kind": "StringLiteral",
-      "offset": 292,
+      "offset": 393,
       "length": 22,
       "value": "\"df_config_log_enable\""
     },
     {
       "filePath": "\/Users\/runner\/work\/dfn-v2-dfinery-ios-sdk\/dfn-v2-dfinery-ios-sdk\/sdk-repo\/DfinerySDK\/Public\/DfienryConstant.swift",
       "kind": "StringLiteral",
-      "offset": 402,
+      "offset": 450,
+      "length": 21,
+      "value": "\"df_config_log_level\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/dfn-v2-dfinery-ios-sdk\/dfn-v2-dfinery-ios-sdk\/sdk-repo\/DfinerySDK\/Public\/DfienryConstant.swift",
+      "kind": "IntegerLiteral",
+      "offset": 528,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/dfn-v2-dfinery-ios-sdk\/dfn-v2-dfinery-ios-sdk\/sdk-repo\/DfinerySDK\/Public\/DfienryConstant.swift",
+      "kind": "IntegerLiteral",
+      "offset": 549,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/dfn-v2-dfinery-ios-sdk\/dfn-v2-dfinery-ios-sdk\/sdk-repo\/DfinerySDK\/Public\/DfienryConstant.swift",
+      "kind": "IntegerLiteral",
+      "offset": 567,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/dfn-v2-dfinery-ios-sdk\/dfn-v2-dfinery-ios-sdk\/sdk-repo\/DfinerySDK\/Public\/DfienryConstant.swift",
+      "kind": "IntegerLiteral",
+      "offset": 586,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/dfn-v2-dfinery-ios-sdk\/dfn-v2-dfinery-ios-sdk\/sdk-repo\/DfinerySDK\/Public\/DfienryConstant.swift",
+      "kind": "IntegerLiteral",
+      "offset": 607,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/dfn-v2-dfinery-ios-sdk\/dfn-v2-dfinery-ios-sdk\/sdk-repo\/DfinerySDK\/Public\/DfienryConstant.swift",
+      "kind": "StringLiteral",
+      "offset": 696,
       "length": 12,
       "value": "\"df_sign_up\""
     },
     {
       "filePath": "\/Users\/runner\/work\/dfn-v2-dfinery-ios-sdk\/dfn-v2-dfinery-ios-sdk\/sdk-repo\/DfinerySDK\/Public\/DfienryConstant.swift",
       "kind": "StringLiteral",
-      "offset": 448,
+      "offset": 742,
       "length": 13,
       "value": "\"df_purchase\""
     },
     {
       "filePath": "\/Users\/runner\/work\/dfn-v2-dfinery-ios-sdk\/dfn-v2-dfinery-ios-sdk\/sdk-repo\/DfinerySDK\/Public\/DfienryConstant.swift",
       "kind": "StringLiteral",
-      "offset": 496,
+      "offset": 790,
       "length": 14,
       "value": "\"df_view_home\""
     },
     {
       "filePath": "\/Users\/runner\/work\/dfn-v2-dfinery-ios-sdk\/dfn-v2-dfinery-ios-sdk\/sdk-repo\/DfinerySDK\/Public\/DfienryConstant.swift",
       "kind": "StringLiteral",
-      "offset": 556,
+      "offset": 850,
       "length": 25,
       "value": "\"df_view_product_details\""
     },
     {
       "filePath": "\/Users\/runner\/work\/dfn-v2-dfinery-ios-sdk\/dfn-v2-dfinery-ios-sdk\/sdk-repo\/DfinerySDK\/Public\/DfienryConstant.swift",
       "kind": "StringLiteral",
-      "offset": 618,
+      "offset": 912,
       "length": 16,
       "value": "\"df_add_to_cart\""
     },
     {
       "filePath": "\/Users\/runner\/work\/dfn-v2-dfinery-ios-sdk\/dfn-v2-dfinery-ios-sdk\/sdk-repo\/DfinerySDK\/Public\/DfienryConstant.swift",
       "kind": "StringLiteral",
-      "offset": 675,
+      "offset": 969,
       "length": 20,
       "value": "\"df_add_to_wishlist\""
     },
     {
       "filePath": "\/Users\/runner\/work\/dfn-v2-dfinery-ios-sdk\/dfn-v2-dfinery-ios-sdk\/sdk-repo\/DfinerySDK\/Public\/DfienryConstant.swift",
       "kind": "StringLiteral",
-      "offset": 727,
+      "offset": 1021,
       "length": 11,
       "value": "\"df_refund\""
     },
     {
       "filePath": "\/Users\/runner\/work\/dfn-v2-dfinery-ios-sdk\/dfn-v2-dfinery-ios-sdk\/sdk-repo\/DfinerySDK\/Public\/DfienryConstant.swift",
       "kind": "StringLiteral",
-      "offset": 782,
+      "offset": 1076,
       "length": 23,
       "value": "\"df_view_search_result\""
     },
     {
       "filePath": "\/Users\/runner\/work\/dfn-v2-dfinery-ios-sdk\/dfn-v2-dfinery-ios-sdk\/sdk-repo\/DfinerySDK\/Public\/DfienryConstant.swift",
       "kind": "StringLiteral",
-      "offset": 844,
+      "offset": 1138,
       "length": 18,
       "value": "\"df_share_product\""
     },
     {
       "filePath": "\/Users\/runner\/work\/dfn-v2-dfinery-ios-sdk\/dfn-v2-dfinery-ios-sdk\/sdk-repo\/DfinerySDK\/Public\/DfienryConstant.swift",
       "kind": "StringLiteral",
-      "offset": 897,
+      "offset": 1191,
       "length": 14,
       "value": "\"df_view_list\""
     },
     {
       "filePath": "\/Users\/runner\/work\/dfn-v2-dfinery-ios-sdk\/dfn-v2-dfinery-ios-sdk\/sdk-repo\/DfinerySDK\/Public\/DfienryConstant.swift",
       "kind": "StringLiteral",
-      "offset": 946,
+      "offset": 1240,
       "length": 14,
       "value": "\"df_view_cart\""
     },
     {
       "filePath": "\/Users\/runner\/work\/dfn-v2-dfinery-ios-sdk\/dfn-v2-dfinery-ios-sdk\/sdk-repo\/DfinerySDK\/Public\/DfienryConstant.swift",
       "kind": "StringLiteral",
-      "offset": 1002,
+      "offset": 1296,
       "length": 21,
       "value": "\"df_add_payment_info\""
     },
     {
       "filePath": "\/Users\/runner\/work\/dfn-v2-dfinery-ios-sdk\/dfn-v2-dfinery-ios-sdk\/sdk-repo\/DfinerySDK\/Public\/DfienryConstant.swift",
       "kind": "StringLiteral",
-      "offset": 1060,
+      "offset": 1354,
       "length": 16,
       "value": "\"df_remove_cart\""
     },
     {
       "filePath": "\/Users\/runner\/work\/dfn-v2-dfinery-ios-sdk\/dfn-v2-dfinery-ios-sdk\/sdk-repo\/DfinerySDK\/Public\/DfienryConstant.swift",
       "kind": "StringLiteral",
-      "offset": 1107,
+      "offset": 1401,
       "length": 10,
       "value": "\"df_login\""
     },
     {
       "filePath": "\/Users\/runner\/work\/dfn-v2-dfinery-ios-sdk\/dfn-v2-dfinery-ios-sdk\/sdk-repo\/DfinerySDK\/Public\/DfienryConstant.swift",
       "kind": "StringLiteral",
-      "offset": 1149,
+      "offset": 1443,
       "length": 11,
       "value": "\"df_logout\""
     },
     {
       "filePath": "\/Users\/runner\/work\/dfn-v2-dfinery-ios-sdk\/dfn-v2-dfinery-ios-sdk\/sdk-repo\/DfinerySDK\/Public\/DfienryConstant.swift",
       "kind": "StringLiteral",
-      "offset": 1264,
+      "offset": 1558,
       "length": 20,
       "value": "\"df_delivery_charge\""
     },
     {
       "filePath": "\/Users\/runner\/work\/dfn-v2-dfinery-ios-sdk\/dfn-v2-dfinery-ios-sdk\/sdk-repo\/DfinerySDK\/Public\/DfienryConstant.swift",
       "kind": "StringLiteral",
-      "offset": 1339,
+      "offset": 1633,
       "length": 12,
       "value": "\"df_keyword\""
     },
     {
       "filePath": "\/Users\/runner\/work\/dfn-v2-dfinery-ios-sdk\/dfn-v2-dfinery-ios-sdk\/sdk-repo\/DfinerySDK\/Public\/DfienryConstant.swift",
       "kind": "StringLiteral",
-      "offset": 1407,
+      "offset": 1701,
       "length": 13,
       "value": "\"df_order_id\""
     },
     {
       "filePath": "\/Users\/runner\/work\/dfn-v2-dfinery-ios-sdk\/dfn-v2-dfinery-ios-sdk\/sdk-repo\/DfinerySDK\/Public\/DfienryConstant.swift",
       "kind": "StringLiteral",
-      "offset": 1482,
+      "offset": 1776,
       "length": 19,
       "value": "\"df_payment_method\""
     },
     {
       "filePath": "\/Users\/runner\/work\/dfn-v2-dfinery-ios-sdk\/dfn-v2-dfinery-ios-sdk\/sdk-repo\/DfinerySDK\/Public\/DfienryConstant.swift",
       "kind": "StringLiteral",
-      "offset": 1564,
+      "offset": 1858,
       "length": 20,
       "value": "\"df_sharing_channel\""
     },
     {
       "filePath": "\/Users\/runner\/work\/dfn-v2-dfinery-ios-sdk\/dfn-v2-dfinery-ios-sdk\/sdk-repo\/DfinerySDK\/Public\/DfienryConstant.swift",
       "kind": "StringLiteral",
-      "offset": 1644,
+      "offset": 1938,
       "length": 17,
       "value": "\"df_sign_channel\""
     },
     {
       "filePath": "\/Users\/runner\/work\/dfn-v2-dfinery-ios-sdk\/dfn-v2-dfinery-ios-sdk\/sdk-repo\/DfinerySDK\/Public\/DfienryConstant.swift",
       "kind": "StringLiteral",
-      "offset": 1730,
+      "offset": 2024,
       "length": 26,
       "value": "\"df_total_purchase_amount\""
     },
     {
       "filePath": "\/Users\/runner\/work\/dfn-v2-dfinery-ios-sdk\/dfn-v2-dfinery-ios-sdk\/sdk-repo\/DfinerySDK\/Public\/DfienryConstant.swift",
       "kind": "StringLiteral",
-      "offset": 1823,
+      "offset": 2117,
       "length": 24,
       "value": "\"df_total_refund_amount\""
     },
     {
       "filePath": "\/Users\/runner\/work\/dfn-v2-dfinery-ios-sdk\/dfn-v2-dfinery-ios-sdk\/sdk-repo\/DfinerySDK\/Public\/DfienryConstant.swift",
       "kind": "StringLiteral",
-      "offset": 1903,
+      "offset": 2197,
       "length": 13,
       "value": "\"df_discount\""
     },
     {
       "filePath": "\/Users\/runner\/work\/dfn-v2-dfinery-ios-sdk\/dfn-v2-dfinery-ios-sdk\/sdk-repo\/DfinerySDK\/Public\/DfienryConstant.swift",
       "kind": "StringLiteral",
-      "offset": 1978,
+      "offset": 2272,
       "length": 10,
       "value": "\"df_items\""
     },
     {
       "filePath": "\/Users\/runner\/work\/dfn-v2-dfinery-ios-sdk\/dfn-v2-dfinery-ios-sdk\/sdk-repo\/DfinerySDK\/Public\/DfienryConstant.swift",
       "kind": "StringLiteral",
-      "offset": 2043,
+      "offset": 2337,
       "length": 12,
       "value": "\"df_item_id\""
     },
     {
       "filePath": "\/Users\/runner\/work\/dfn-v2-dfinery-ios-sdk\/dfn-v2-dfinery-ios-sdk\/sdk-repo\/DfinerySDK\/Public\/DfienryConstant.swift",
       "kind": "StringLiteral",
-      "offset": 2112,
+      "offset": 2406,
       "length": 14,
       "value": "\"df_item_name\""
     },
     {
       "filePath": "\/Users\/runner\/work\/dfn-v2-dfinery-ios-sdk\/dfn-v2-dfinery-ios-sdk\/sdk-repo\/DfinerySDK\/Public\/DfienryConstant.swift",
       "kind": "StringLiteral",
-      "offset": 2184,
+      "offset": 2478,
       "length": 10,
       "value": "\"df_price\""
     },
     {
       "filePath": "\/Users\/runner\/work\/dfn-v2-dfinery-ios-sdk\/dfn-v2-dfinery-ios-sdk\/sdk-repo\/DfinerySDK\/Public\/DfienryConstant.swift",
       "kind": "StringLiteral",
-      "offset": 2252,
+      "offset": 2546,
       "length": 13,
       "value": "\"df_quantity\""
     },
     {
       "filePath": "\/Users\/runner\/work\/dfn-v2-dfinery-ios-sdk\/dfn-v2-dfinery-ios-sdk\/sdk-repo\/DfinerySDK\/Public\/DfienryConstant.swift",
       "kind": "StringLiteral",
-      "offset": 2326,
+      "offset": 2620,
       "length": 13,
       "value": "\"df_discount\""
     },
     {
       "filePath": "\/Users\/runner\/work\/dfn-v2-dfinery-ios-sdk\/dfn-v2-dfinery-ios-sdk\/sdk-repo\/DfinerySDK\/Public\/DfienryConstant.swift",
       "kind": "StringLiteral",
-      "offset": 2401,
+      "offset": 2695,
       "length": 14,
       "value": "\"df_category1\""
     },
     {
       "filePath": "\/Users\/runner\/work\/dfn-v2-dfinery-ios-sdk\/dfn-v2-dfinery-ios-sdk\/sdk-repo\/DfinerySDK\/Public\/DfienryConstant.swift",
       "kind": "StringLiteral",
-      "offset": 2477,
+      "offset": 2771,
       "length": 14,
       "value": "\"df_category2\""
     },
     {
       "filePath": "\/Users\/runner\/work\/dfn-v2-dfinery-ios-sdk\/dfn-v2-dfinery-ios-sdk\/sdk-repo\/DfinerySDK\/Public\/DfienryConstant.swift",
       "kind": "StringLiteral",
-      "offset": 2553,
+      "offset": 2847,
       "length": 14,
       "value": "\"df_category3\""
     },
     {
       "filePath": "\/Users\/runner\/work\/dfn-v2-dfinery-ios-sdk\/dfn-v2-dfinery-ios-sdk\/sdk-repo\/DfinerySDK\/Public\/DfienryConstant.swift",
       "kind": "StringLiteral",
-      "offset": 2629,
+      "offset": 2923,
       "length": 14,
       "value": "\"df_category4\""
     },
     {
       "filePath": "\/Users\/runner\/work\/dfn-v2-dfinery-ios-sdk\/dfn-v2-dfinery-ios-sdk\/sdk-repo\/DfinerySDK\/Public\/DfienryConstant.swift",
       "kind": "StringLiteral",
-      "offset": 2705,
+      "offset": 2999,
       "length": 14,
       "value": "\"df_category5\""
     },
     {
       "filePath": "\/Users\/runner\/work\/dfn-v2-dfinery-ios-sdk\/dfn-v2-dfinery-ios-sdk\/sdk-repo\/DfinerySDK\/Public\/DfienryConstant.swift",
       "kind": "StringLiteral",
-      "offset": 2805,
+      "offset": 3099,
       "length": 6,
       "value": "\"Male\""
     },
     {
       "filePath": "\/Users\/runner\/work\/dfn-v2-dfinery-ios-sdk\/dfn-v2-dfinery-ios-sdk\/sdk-repo\/DfinerySDK\/Public\/DfienryConstant.swift",
       "kind": "StringLiteral",
-      "offset": 2843,
+      "offset": 3137,
       "length": 8,
       "value": "\"Female\""
     },
     {
       "filePath": "\/Users\/runner\/work\/dfn-v2-dfinery-ios-sdk\/dfn-v2-dfinery-ios-sdk\/sdk-repo\/DfinerySDK\/Public\/DfienryConstant.swift",
       "kind": "StringLiteral",
-      "offset": 2886,
+      "offset": 3180,
       "length": 11,
       "value": "\"NonBinary\""
     },
     {
       "filePath": "\/Users\/runner\/work\/dfn-v2-dfinery-ios-sdk\/dfn-v2-dfinery-ios-sdk\/sdk-repo\/DfinerySDK\/Public\/DfienryConstant.swift",
       "kind": "StringLiteral",
-      "offset": 2928,
+      "offset": 3222,
       "length": 7,
       "value": "\"Other\""
     },
     {
       "filePath": "\/Users\/runner\/work\/dfn-v2-dfinery-ios-sdk\/dfn-v2-dfinery-ios-sdk\/sdk-repo\/DfinerySDK\/Public\/DfienryConstant.swift",
       "kind": "StringLiteral",
-      "offset": 3026,
+      "offset": 3320,
       "length": 9,
       "value": "\"df_name\""
     },
     {
       "filePath": "\/Users\/runner\/work\/dfn-v2-dfinery-ios-sdk\/dfn-v2-dfinery-ios-sdk\/sdk-repo\/DfinerySDK\/Public\/DfienryConstant.swift",
       "kind": "StringLiteral",
-      "offset": 3066,
+      "offset": 3360,
       "length": 10,
       "value": "\"df_birth\""
     },
     {
       "filePath": "\/Users\/runner\/work\/dfn-v2-dfinery-ios-sdk\/dfn-v2-dfinery-ios-sdk\/sdk-repo\/DfinerySDK\/Public\/DfienryConstant.swift",
       "kind": "StringLiteral",
-      "offset": 3112,
+      "offset": 3406,
       "length": 15,
       "value": "\"df_membership\""
     },
     {
       "filePath": "\/Users\/runner\/work\/dfn-v2-dfinery-ios-sdk\/dfn-v2-dfinery-ios-sdk\/sdk-repo\/DfinerySDK\/Public\/DfienryConstant.swift",
       "kind": "StringLiteral",
-      "offset": 3159,
+      "offset": 3453,
       "length": 11,
       "value": "\"df_gender\""
     },
     {
       "filePath": "\/Users\/runner\/work\/dfn-v2-dfinery-ios-sdk\/dfn-v2-dfinery-ios-sdk\/sdk-repo\/DfinerySDK\/Public\/DfienryConstant.swift",
       "kind": "StringLiteral",
-      "offset": 3254,
+      "offset": 3548,
       "length": 15,
       "value": "\"df_push_optin\""
     },
     {
       "filePath": "\/Users\/runner\/work\/dfn-v2-dfinery-ios-sdk\/dfn-v2-dfinery-ios-sdk\/sdk-repo\/DfinerySDK\/Public\/DfienryConstant.swift",
       "kind": "StringLiteral",
-      "offset": 3309,
+      "offset": 3603,
       "length": 19,
       "value": "\"df_push_ads_optin\""
     },
     {
       "filePath": "\/Users\/runner\/work\/dfn-v2-dfinery-ios-sdk\/dfn-v2-dfinery-ios-sdk\/sdk-repo\/DfinerySDK\/Public\/DfienryConstant.swift",
       "kind": "StringLiteral",
-      "offset": 3369,
+      "offset": 3663,
       "length": 20,
       "value": "\"df_kakao_ads_optin\""
     },
     {
       "filePath": "\/Users\/runner\/work\/dfn-v2-dfinery-ios-sdk\/dfn-v2-dfinery-ios-sdk\/sdk-repo\/DfinerySDK\/Public\/DfienryConstant.swift",
       "kind": "StringLiteral",
-      "offset": 3428,
+      "offset": 3722,
       "length": 18,
       "value": "\"df_sms_ads_optin\""
     },
     {
       "filePath": "\/Users\/runner\/work\/dfn-v2-dfinery-ios-sdk\/dfn-v2-dfinery-ios-sdk\/sdk-repo\/DfinerySDK\/Public\/DfienryConstant.swift",
       "kind": "StringLiteral",
-      "offset": 3492,
+      "offset": 3786,
       "length": 25,
       "value": "\"df_push_night_ads_optin\""
     },
     {
       "filePath": "\/Users\/runner\/work\/dfn-v2-dfinery-ios-sdk\/dfn-v2-dfinery-ios-sdk\/sdk-repo\/DfinerySDK\/Public\/DfienryConstant.swift",
       "kind": "StringLiteral",
-      "offset": 3612,
+      "offset": 3906,
       "length": 13,
       "value": "\"external_id\""
     },
     {
       "filePath": "\/Users\/runner\/work\/dfn-v2-dfinery-ios-sdk\/dfn-v2-dfinery-ios-sdk\/sdk-repo\/DfinerySDK\/Public\/DfienryConstant.swift",
       "kind": "StringLiteral",
-      "offset": 3656,
+      "offset": 3950,
       "length": 7,
       "value": "\"email\""
     },
     {
       "filePath": "\/Users\/runner\/work\/dfn-v2-dfinery-ios-sdk\/dfn-v2-dfinery-ios-sdk\/sdk-repo\/DfinerySDK\/Public\/DfienryConstant.swift",
       "kind": "StringLiteral",
-      "offset": 3697,
+      "offset": 3991,
       "length": 10,
       "value": "\"phone_no\""
     },
     {
       "filePath": "\/Users\/runner\/work\/dfn-v2-dfinery-ios-sdk\/dfn-v2-dfinery-ios-sdk\/sdk-repo\/DfinerySDK\/Public\/DfienryConstant.swift",
       "kind": "StringLiteral",
-      "offset": 3746,
+      "offset": 4040,
       "length": 15,
       "value": "\"kakao_user_id\""
     },
     {
       "filePath": "\/Users\/runner\/work\/dfn-v2-dfinery-ios-sdk\/dfn-v2-dfinery-ios-sdk\/sdk-repo\/DfinerySDK\/Public\/DfienryConstant.swift",
       "kind": "StringLiteral",
-      "offset": 3799,
+      "offset": 4093,
       "length": 14,
       "value": "\"line_user_id\""
     },
     {
+      "filePath": "\/Users\/runner\/work\/dfn-v2-dfinery-ios-sdk\/dfn-v2-dfinery-ios-sdk\/sdk-repo\/DfinerySDK\/Domain\/UseCase\/ApSspPushClickUseCase.swift",
+      "kind": "StringLiteral",
+      "offset": 511,
+      "length": 9,
+      "value": "\"ad push\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/dfn-v2-dfinery-ios-sdk\/dfn-v2-dfinery-ios-sdk\/sdk-repo\/DfinerySDK\/Domain\/UseCase\/PushActionUseCase.swift",
+      "kind": "StringLiteral",
+      "offset": 555,
+      "length": 6,
+      "value": "\"push\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/dfn-v2-dfinery-ios-sdk\/dfn-v2-dfinery-ios-sdk\/sdk-repo\/DfinerySDK\/Domain\/UseCase\/DidBecomeActiveUseCase.swift",
+      "kind": "StringLiteral",
+      "offset": 689,
+      "length": 9,
+      "value": "\"session\""
+    },
+    {
       "filePath": "\/Users\/runner\/work\/dfn-v2-dfinery-ios-sdk\/dfn-v2-dfinery-ios-sdk\/sdk-repo\/DfinerySDK\/Domain\/UseCase\/DidBecomeActiveUseCase.swift",
       "kind": "IntegerLiteral",
-      "offset": 1462,
+      "offset": 1506,
       "length": 2,
       "value": "60"
     },
     {
       "filePath": "\/Users\/runner\/work\/dfn-v2-dfinery-ios-sdk\/dfn-v2-dfinery-ios-sdk\/sdk-repo\/DfinerySDK\/Domain\/UseCase\/DidBecomeActiveUseCase.swift",
       "kind": "StringLiteral",
-      "offset": 1498,
+      "offset": 1542,
       "length": 16,
       "value": "\"df_end_session\""
     },
     {
       "filePath": "\/Users\/runner\/work\/dfn-v2-dfinery-ios-sdk\/dfn-v2-dfinery-ios-sdk\/sdk-repo\/DfinerySDK\/Domain\/UseCase\/DidBecomeActiveUseCase.swift",
       "kind": "StringLiteral",
-      "offset": 1550,
+      "offset": 1594,
       "length": 18,
       "value": "\"df_start_session\""
     },
@@ -6541,65 +7093,121 @@
       "value": "\"com.dfinery.snapshot.identities\""
     },
     {
+      "filePath": "\/Users\/runner\/work\/dfn-v2-dfinery-ios-sdk\/dfn-v2-dfinery-ios-sdk\/sdk-repo\/DfinerySDK\/Service\/DfnLoggerV2.swift",
+      "kind": "StringLiteral",
+      "offset": 471,
+      "length": 53,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/dfn-v2-dfinery-ios-sdk\/dfn-v2-dfinery-ios-sdk\/sdk-repo\/DfinerySDK\/Service\/DfnLoggerV2.swift",
+      "kind": "StringLiteral",
+      "offset": 506,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/dfn-v2-dfinery-ios-sdk\/dfn-v2-dfinery-ios-sdk\/sdk-repo\/DfinerySDK\/Service\/DfnLoggerV2.swift",
+      "kind": "StringLiteral",
+      "offset": 509,
+      "length": 1,
+      "value": "\".dfineryLogger\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/dfn-v2-dfinery-ios-sdk\/dfn-v2-dfinery-ios-sdk\/sdk-repo\/DfinerySDK\/Service\/DfnLoggerV2.swift",
+      "kind": "StringLiteral",
+      "offset": 570,
+      "length": 13,
+      "value": "\"DfnLoggerV2\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/dfn-v2-dfinery-ios-sdk\/dfn-v2-dfinery-ios-sdk\/sdk-repo\/DfinerySDK\/Service\/DfnLoggerV2.swift",
+      "kind": "StringLiteral",
+      "offset": 629,
+      "length": 33,
+      "value": "\"com.igaworks.dfinery.loggerFlag\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/dfn-v2-dfinery-ios-sdk\/dfn-v2-dfinery-ios-sdk\/sdk-repo\/DfinerySDK\/Service\/DfnLoggerV2.swift",
+      "kind": "Array",
+      "offset": 854,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/dfn-v2-dfinery-ios-sdk\/dfn-v2-dfinery-ios-sdk\/sdk-repo\/DfinerySDK\/Service\/DfnLoggerV2.swift",
+      "kind": "IntegerLiteral",
+      "offset": 889,
+      "length": 2,
+      "value": "50"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/dfn-v2-dfinery-ios-sdk\/dfn-v2-dfinery-ios-sdk\/sdk-repo\/DfinerySDK\/Service\/DfnLoggerV2.swift",
+      "kind": "IntegerLiteral",
+      "offset": 920,
+      "length": 4,
+      "value": "1000"
+    },
+    {
       "filePath": "\/Users\/runner\/work\/dfn-v2-dfinery-ios-sdk\/dfn-v2-dfinery-ios-sdk\/sdk-repo\/DfinerySDK\/Domain\/Interface\/ServerResponse.swift",
       "kind": "IntegerLiteral",
-      "offset": 167,
+      "offset": 665,
       "length": 5,
       "value": "20000"
     },
     {
       "filePath": "\/Users\/runner\/work\/dfn-v2-dfinery-ios-sdk\/dfn-v2-dfinery-ios-sdk\/sdk-repo\/DfinerySDK\/Domain\/Interface\/ServerResponse.swift",
       "kind": "IntegerLiteral",
-      "offset": 200,
+      "offset": 702,
       "length": 5,
       "value": "40402"
     },
     {
       "filePath": "\/Users\/runner\/work\/dfn-v2-dfinery-ios-sdk\/dfn-v2-dfinery-ios-sdk\/sdk-repo\/DfinerySDK\/Domain\/Interface\/ServerResponse.swift",
       "kind": "IntegerLiteral",
-      "offset": 236,
+      "offset": 742,
       "length": 5,
       "value": "40001"
     },
     {
       "filePath": "\/Users\/runner\/work\/dfn-v2-dfinery-ios-sdk\/dfn-v2-dfinery-ios-sdk\/sdk-repo\/DfinerySDK\/Domain\/Interface\/ServerResponse.swift",
       "kind": "IntegerLiteral",
-      "offset": 272,
+      "offset": 782,
       "length": 5,
       "value": "40101"
     },
     {
       "filePath": "\/Users\/runner\/work\/dfn-v2-dfinery-ios-sdk\/dfn-v2-dfinery-ios-sdk\/sdk-repo\/DfinerySDK\/Domain\/Interface\/ServerResponse.swift",
       "kind": "IntegerLiteral",
-      "offset": 304,
+      "offset": 818,
       "length": 5,
       "value": "40301"
     },
     {
       "filePath": "\/Users\/runner\/work\/dfn-v2-dfinery-ios-sdk\/dfn-v2-dfinery-ios-sdk\/sdk-repo\/DfinerySDK\/Domain\/Interface\/ServerResponse.swift",
       "kind": "IntegerLiteral",
-      "offset": 342,
+      "offset": 860,
       "length": 5,
       "value": "50101"
     },
     {
       "filePath": "\/Users\/runner\/work\/dfn-v2-dfinery-ios-sdk\/dfn-v2-dfinery-ios-sdk\/sdk-repo\/DfinerySDK\/Domain\/Interface\/ServerResponse.swift",
       "kind": "IntegerLiteral",
-      "offset": 381,
+      "offset": 903,
       "length": 5,
       "value": "50000"
     },
     {
       "filePath": "\/Users\/runner\/work\/dfn-v2-dfinery-ios-sdk\/dfn-v2-dfinery-ios-sdk\/sdk-repo\/DfinerySDK\/Domain\/Interface\/ServerResponse.swift",
       "kind": "IntegerLiteral",
-      "offset": 418,
+      "offset": 944,
       "length": 5,
       "value": "40204"
     },
     {
       "filePath": "\/Users\/runner\/work\/dfn-v2-dfinery-ios-sdk\/dfn-v2-dfinery-ios-sdk\/sdk-repo\/DfinerySDK\/Domain\/Interface\/ServerResponse.swift",
       "kind": "IntegerLiteral",
-      "offset": 454,
+      "offset": 984,
       "length": 5,
       "value": "40202"
     },
@@ -6616,6 +7224,27 @@
       "offset": 889,
       "length": 1,
       "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/dfn-v2-dfinery-ios-sdk\/dfn-v2-dfinery-ios-sdk\/sdk-repo\/DfinerySDK\/Domain\/UseCase\/LogEventUseCase.swift",
+      "kind": "StringLiteral",
+      "offset": 1100,
+      "length": 10,
+      "value": "\"logEvent\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/dfn-v2-dfinery-ios-sdk\/dfn-v2-dfinery-ios-sdk\/sdk-repo\/DfinerySDK\/Domain\/UseCase\/FlushUseCase.swift",
+      "kind": "StringLiteral",
+      "offset": 523,
+      "length": 12,
+      "value": "\"flushEvent\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/dfn-v2-dfinery-ios-sdk\/dfn-v2-dfinery-ios-sdk\/sdk-repo\/DfinerySDK\/Domain\/UseCase\/SetDeviceTokenUseCase.swift",
+      "kind": "StringLiteral",
+      "offset": 453,
+      "length": 6,
+      "value": "\"push\""
     },
     {
       "filePath": "\/Users\/runner\/work\/dfn-v2-dfinery-ios-sdk\/dfn-v2-dfinery-ios-sdk\/sdk-repo\/DfinerySDK\/Data\/Repository\/DefaultStateRepository.swift",
@@ -6674,39 +7303,81 @@
       "value": "[]"
     },
     {
+      "filePath": "\/Users\/runner\/work\/dfn-v2-dfinery-ios-sdk\/dfn-v2-dfinery-ios-sdk\/sdk-repo\/DfinerySDK\/InAppMessage\/DefaultInAppMessageService.swift",
+      "kind": "StringLiteral",
+      "offset": 810,
+      "length": 14,
+      "value": "\"inAppMessage\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/dfn-v2-dfinery-ios-sdk\/dfn-v2-dfinery-ios-sdk\/sdk-repo\/DfinerySDK\/Service\/DefaultSessionService.swift",
+      "kind": "StringLiteral",
+      "offset": 331,
+      "length": 9,
+      "value": "\"session\""
+    },
+    {
       "filePath": "\/Users\/runner\/work\/dfn-v2-dfinery-ios-sdk\/dfn-v2-dfinery-ios-sdk\/sdk-repo\/DfinerySDK\/Domain\/UseCase\/SdkInitUseCase.swift",
       "kind": "StringLiteral",
-      "offset": 1573,
+      "offset": 720,
+      "length": 6,
+      "value": "\"init\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/dfn-v2-dfinery-ios-sdk\/dfn-v2-dfinery-ios-sdk\/sdk-repo\/DfinerySDK\/Domain\/UseCase\/SdkInitUseCase.swift",
+      "kind": "StringLiteral",
+      "offset": 1614,
       "length": 17,
       "value": "\"DFN_FLUSH_COUNT\""
     },
     {
       "filePath": "\/Users\/runner\/work\/dfn-v2-dfinery-ios-sdk\/dfn-v2-dfinery-ios-sdk\/sdk-repo\/DfinerySDK\/Domain\/UseCase\/SdkInitUseCase.swift",
       "kind": "StringLiteral",
-      "offset": 1631,
+      "offset": 1672,
       "length": 20,
       "value": "\"DFN_FLUSH_INTERVAL\""
     },
     {
       "filePath": "\/Users\/runner\/work\/dfn-v2-dfinery-ios-sdk\/dfn-v2-dfinery-ios-sdk\/sdk-repo\/DfinerySDK\/Domain\/UseCase\/SdkInitUseCase.swift",
       "kind": "StringLiteral",
-      "offset": 1689,
+      "offset": 1730,
       "length": 17,
       "value": "\"DFN_RETRY_COUNT\""
     },
     {
       "filePath": "\/Users\/runner\/work\/dfn-v2-dfinery-ios-sdk\/dfn-v2-dfinery-ios-sdk\/sdk-repo\/DfinerySDK\/Domain\/UseCase\/SdkInitUseCase.swift",
       "kind": "StringLiteral",
-      "offset": 1738,
+      "offset": 1779,
       "length": 11,
       "value": "\"DFN_IS_QA\""
     },
     {
       "filePath": "\/Users\/runner\/work\/dfn-v2-dfinery-ios-sdk\/dfn-v2-dfinery-ios-sdk\/sdk-repo\/DfinerySDK\/Domain\/UseCase\/SdkInitUseCase.swift",
       "kind": "StringLiteral",
-      "offset": 1782,
+      "offset": 1823,
       "length": 12,
       "value": "\"DFN_SCHEME\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/dfn-v2-dfinery-ios-sdk\/dfn-v2-dfinery-ios-sdk\/sdk-repo\/DfinerySDK\/Domain\/UseCase\/InAppMessageImpressionUseCase.swift",
+      "kind": "StringLiteral",
+      "offset": 639,
+      "length": 14,
+      "value": "\"inAppMessage\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/dfn-v2-dfinery-ios-sdk\/dfn-v2-dfinery-ios-sdk\/sdk-repo\/DfinerySDK\/Domain\/UseCase\/DisconnectDeviceIdentityUseCase.swift",
+      "kind": "StringLiteral",
+      "offset": 504,
+      "length": 18,
+      "value": "\"disconnectDevice\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/dfn-v2-dfinery-ios-sdk\/dfn-v2-dfinery-ios-sdk\/sdk-repo\/DfinerySDK\/Domain\/UseCase\/SetidentityUseCase.swift",
+      "kind": "StringLiteral",
+      "offset": 706,
+      "length": 13,
+      "value": "\"setIdentity\""
     },
     {
       "filePath": "\/Users\/runner\/work\/dfn-v2-dfinery-ios-sdk\/dfn-v2-dfinery-ios-sdk\/sdk-repo\/DfinerySDK\/Service\/Network\/ApiModel.swift",
@@ -6760,91 +7431,91 @@
     {
       "filePath": "\/Users\/runner\/work\/dfn-v2-dfinery-ios-sdk\/dfn-v2-dfinery-ios-sdk\/sdk-repo\/DfinerySDK\/Service\/Network\/ApiModel.swift",
       "kind": "StringLiteral",
-      "offset": 6410,
+      "offset": 6423,
       "length": 5,
       "value": "\"GET\""
     },
     {
       "filePath": "\/Users\/runner\/work\/dfn-v2-dfinery-ios-sdk\/dfn-v2-dfinery-ios-sdk\/sdk-repo\/DfinerySDK\/Service\/Network\/ApiModel.swift",
       "kind": "StringLiteral",
-      "offset": 6435,
+      "offset": 6448,
       "length": 6,
       "value": "\"HEAD\""
     },
     {
       "filePath": "\/Users\/runner\/work\/dfn-v2-dfinery-ios-sdk\/dfn-v2-dfinery-ios-sdk\/sdk-repo\/DfinerySDK\/Service\/Network\/ApiModel.swift",
       "kind": "StringLiteral",
-      "offset": 6461,
+      "offset": 6474,
       "length": 6,
       "value": "\"POST\""
     },
     {
       "filePath": "\/Users\/runner\/work\/dfn-v2-dfinery-ios-sdk\/dfn-v2-dfinery-ios-sdk\/sdk-repo\/DfinerySDK\/Service\/Network\/ApiModel.swift",
       "kind": "StringLiteral",
-      "offset": 6487,
+      "offset": 6500,
       "length": 5,
       "value": "\"PUT\""
     },
     {
       "filePath": "\/Users\/runner\/work\/dfn-v2-dfinery-ios-sdk\/dfn-v2-dfinery-ios-sdk\/sdk-repo\/DfinerySDK\/Service\/Network\/ApiModel.swift",
       "kind": "StringLiteral",
-      "offset": 6512,
+      "offset": 6525,
       "length": 7,
       "value": "\"PATCH\""
     },
     {
       "filePath": "\/Users\/runner\/work\/dfn-v2-dfinery-ios-sdk\/dfn-v2-dfinery-ios-sdk\/sdk-repo\/DfinerySDK\/Service\/Network\/ApiModel.swift",
       "kind": "StringLiteral",
-      "offset": 6539,
+      "offset": 6552,
       "length": 8,
       "value": "\"DELETE\""
     },
     {
       "filePath": "\/Users\/runner\/work\/dfn-v2-dfinery-ios-sdk\/dfn-v2-dfinery-ios-sdk\/sdk-repo\/DfinerySDK\/Service\/Network\/ApiModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 8058,
+      "offset": 8076,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/runner\/work\/dfn-v2-dfinery-ios-sdk\/dfn-v2-dfinery-ios-sdk\/sdk-repo\/DfinerySDK\/Service\/Network\/ApiModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 8093,
+      "offset": 8111,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/runner\/work\/dfn-v2-dfinery-ios-sdk\/dfn-v2-dfinery-ios-sdk\/sdk-repo\/DfinerySDK\/Service\/Network\/ApiModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 8219,
+      "offset": 8237,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/runner\/work\/dfn-v2-dfinery-ios-sdk\/dfn-v2-dfinery-ios-sdk\/sdk-repo\/DfinerySDK\/Service\/DfnLogger.swift",
       "kind": "StringLiteral",
-      "offset": 212,
+      "offset": 982,
       "length": 47,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/runner\/work\/dfn-v2-dfinery-ios-sdk\/dfn-v2-dfinery-ios-sdk\/sdk-repo\/DfinerySDK\/Service\/DfnLogger.swift",
       "kind": "StringLiteral",
-      "offset": 247,
+      "offset": 1017,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/runner\/work\/dfn-v2-dfinery-ios-sdk\/dfn-v2-dfinery-ios-sdk\/sdk-repo\/DfinerySDK\/Service\/DfnLogger.swift",
       "kind": "StringLiteral",
-      "offset": 250,
+      "offset": 1020,
       "length": 1,
       "value": "\".dfinery\""
     },
     {
       "filePath": "\/Users\/runner\/work\/dfn-v2-dfinery-ios-sdk\/dfn-v2-dfinery-ios-sdk\/sdk-repo\/DfinerySDK\/Service\/DfnLogger.swift",
       "kind": "StringLiteral",
-      "offset": 304,
+      "offset": 1074,
       "length": 11,
       "value": "\"DfnLogger\""
     },
@@ -6854,6 +7525,20 @@
       "offset": 154,
       "length": 6,
       "value": "\"prod\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/dfn-v2-dfinery-ios-sdk\/dfn-v2-dfinery-ios-sdk\/sdk-repo\/DfinerySDK\/Domain\/UseCase\/DisableUseCase.swift",
+      "kind": "StringLiteral",
+      "offset": 773,
+      "length": 12,
+      "value": "\"disableSDK\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/dfn-v2-dfinery-ios-sdk\/dfn-v2-dfinery-ios-sdk\/sdk-repo\/DfinerySDK\/Domain\/UseCase\/InAppMessageClickUseCase.swift",
+      "kind": "StringLiteral",
+      "offset": 602,
+      "length": 14,
+      "value": "\"inAppMessage\""
     }
   ]
 }

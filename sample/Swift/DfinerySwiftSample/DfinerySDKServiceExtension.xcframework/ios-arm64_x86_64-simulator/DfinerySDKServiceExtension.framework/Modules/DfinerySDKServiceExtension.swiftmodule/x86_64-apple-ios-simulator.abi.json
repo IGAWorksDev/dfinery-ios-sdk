@@ -26,6 +26,23 @@
       },
       {
         "kind": "Import",
+        "name": "os",
+        "printedName": "os",
+        "declKind": "Import",
+        "moduleName": "DfinerySDKServiceExtension"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DfinerySDKServiceExtension",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "UserNotifications",
         "printedName": "UserNotifications",
         "declKind": "Import",
@@ -40,9 +57,426 @@
       },
       {
         "kind": "TypeDecl",
+        "name": "DFLogLevel",
+        "printedName": "DFLogLevel",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "error",
+            "printedName": "error",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DfinerySDKServiceExtension.DFLogLevel.Type) -> DfinerySDKServiceExtension.DFLogLevel",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DFLogLevel",
+                    "printedName": "DfinerySDKServiceExtension.DFLogLevel",
+                    "usr": "c:@M@DfinerySDKServiceExtension@E@DFNSELogLevel"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DfinerySDKServiceExtension.DFLogLevel.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DFLogLevel",
+                        "printedName": "DfinerySDKServiceExtension.DFLogLevel",
+                        "usr": "c:@M@DfinerySDKServiceExtension@E@DFNSELogLevel"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@DfinerySDKServiceExtension@E@DFNSELogLevel@DFNSELogLevelError",
+            "mangledName": "$s26DfinerySDKServiceExtension10DFLogLevelO5erroryA2CmF",
+            "moduleName": "DfinerySDKServiceExtension",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 0
+          },
+          {
+            "kind": "Var",
+            "name": "warning",
+            "printedName": "warning",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DfinerySDKServiceExtension.DFLogLevel.Type) -> DfinerySDKServiceExtension.DFLogLevel",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DFLogLevel",
+                    "printedName": "DfinerySDKServiceExtension.DFLogLevel",
+                    "usr": "c:@M@DfinerySDKServiceExtension@E@DFNSELogLevel"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DfinerySDKServiceExtension.DFLogLevel.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DFLogLevel",
+                        "printedName": "DfinerySDKServiceExtension.DFLogLevel",
+                        "usr": "c:@M@DfinerySDKServiceExtension@E@DFNSELogLevel"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@DfinerySDKServiceExtension@E@DFNSELogLevel@DFNSELogLevelWarning",
+            "mangledName": "$s26DfinerySDKServiceExtension10DFLogLevelO7warningyA2CmF",
+            "moduleName": "DfinerySDKServiceExtension",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 1
+          },
+          {
+            "kind": "Var",
+            "name": "info",
+            "printedName": "info",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DfinerySDKServiceExtension.DFLogLevel.Type) -> DfinerySDKServiceExtension.DFLogLevel",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DFLogLevel",
+                    "printedName": "DfinerySDKServiceExtension.DFLogLevel",
+                    "usr": "c:@M@DfinerySDKServiceExtension@E@DFNSELogLevel"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DfinerySDKServiceExtension.DFLogLevel.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DFLogLevel",
+                        "printedName": "DfinerySDKServiceExtension.DFLogLevel",
+                        "usr": "c:@M@DfinerySDKServiceExtension@E@DFNSELogLevel"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@DfinerySDKServiceExtension@E@DFNSELogLevel@DFNSELogLevelInfo",
+            "mangledName": "$s26DfinerySDKServiceExtension10DFLogLevelO4infoyA2CmF",
+            "moduleName": "DfinerySDKServiceExtension",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 2
+          },
+          {
+            "kind": "Var",
+            "name": "debug",
+            "printedName": "debug",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DfinerySDKServiceExtension.DFLogLevel.Type) -> DfinerySDKServiceExtension.DFLogLevel",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DFLogLevel",
+                    "printedName": "DfinerySDKServiceExtension.DFLogLevel",
+                    "usr": "c:@M@DfinerySDKServiceExtension@E@DFNSELogLevel"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DfinerySDKServiceExtension.DFLogLevel.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DFLogLevel",
+                        "printedName": "DfinerySDKServiceExtension.DFLogLevel",
+                        "usr": "c:@M@DfinerySDKServiceExtension@E@DFNSELogLevel"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@DfinerySDKServiceExtension@E@DFNSELogLevel@DFNSELogLevelDebug",
+            "mangledName": "$s26DfinerySDKServiceExtension10DFLogLevelO5debugyA2CmF",
+            "moduleName": "DfinerySDKServiceExtension",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 3
+          },
+          {
+            "kind": "Var",
+            "name": "verbose",
+            "printedName": "verbose",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DfinerySDKServiceExtension.DFLogLevel.Type) -> DfinerySDKServiceExtension.DFLogLevel",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DFLogLevel",
+                    "printedName": "DfinerySDKServiceExtension.DFLogLevel",
+                    "usr": "c:@M@DfinerySDKServiceExtension@E@DFNSELogLevel"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DfinerySDKServiceExtension.DFLogLevel.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DFLogLevel",
+                        "printedName": "DfinerySDKServiceExtension.DFLogLevel",
+                        "usr": "c:@M@DfinerySDKServiceExtension@E@DFNSELogLevel"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@DfinerySDKServiceExtension@E@DFNSELogLevel@DFNSELogLevelVerbose",
+            "mangledName": "$s26DfinerySDKServiceExtension10DFLogLevelO7verboseyA2CmF",
+            "moduleName": "DfinerySDKServiceExtension",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 4
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "DfinerySDKServiceExtension.DFLogLevel?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DFLogLevel",
+                    "printedName": "DfinerySDKServiceExtension.DFLogLevel",
+                    "usr": "c:@M@DfinerySDKServiceExtension@E@DFNSELogLevel"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:26DfinerySDKServiceExtension10DFLogLevelO8rawValueACSgSi_tcfc",
+            "mangledName": "$s26DfinerySDKServiceExtension10DFLogLevelO8rawValueACSgSi_tcfc",
+            "moduleName": "DfinerySDKServiceExtension",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:26DfinerySDKServiceExtension10DFLogLevelO8rawValueSivp",
+            "mangledName": "$s26DfinerySDKServiceExtension10DFLogLevelO8rawValueSivp",
+            "moduleName": "DfinerySDKServiceExtension",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:26DfinerySDKServiceExtension10DFLogLevelO8rawValueSivg",
+                "mangledName": "$s26DfinerySDKServiceExtension10DFLogLevelO8rawValueSivg",
+                "moduleName": "DfinerySDKServiceExtension",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "<",
+            "printedName": "<(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "DFLogLevel",
+                "printedName": "DfinerySDKServiceExtension.DFLogLevel",
+                "usr": "c:@M@DfinerySDKServiceExtension@E@DFNSELogLevel"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "DFLogLevel",
+                "printedName": "DfinerySDKServiceExtension.DFLogLevel",
+                "usr": "c:@M@DfinerySDKServiceExtension@E@DFNSELogLevel"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:26DfinerySDKServiceExtension10DFLogLevelO1loiySbAC_ACtFZ",
+            "mangledName": "$s26DfinerySDKServiceExtension10DFLogLevelO1loiySbAC_ACtFZ",
+            "moduleName": "DfinerySDKServiceExtension",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "c:@M@DfinerySDKServiceExtension@E@DFNSELogLevel",
+        "mangledName": "$s26DfinerySDKServiceExtension10DFLogLevelO",
+        "moduleName": "DfinerySDKServiceExtension",
+        "objc_name": "DFNSELogLevel",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "enumRawTypeName": "Int",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Comparable",
+            "printedName": "Comparable",
+            "usr": "s:SL",
+            "mangledName": "$sSL"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
         "name": "DfineryServiceExtension",
         "printedName": "DfineryServiceExtension",
         "children": [
+          {
+            "kind": "Function",
+            "name": "enableLogging",
+            "printedName": "enableLogging(level:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "DFLogLevel",
+                "printedName": "DfinerySDKServiceExtension.DFLogLevel",
+                "usr": "c:@M@DfinerySDKServiceExtension@E@DFNSELogLevel"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@DfinerySDKServiceExtension@objc(cs)DfineryServiceExtension(cm)enableLoggingWithLevel:",
+            "mangledName": "$s26DfinerySDKServiceExtension0a7ServiceC0C13enableLogging5levelyAA10DFLogLevelO_tFZ",
+            "moduleName": "DfinerySDKServiceExtension",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
           {
             "kind": "Function",
             "name": "canHandle",
@@ -218,30 +652,93 @@
       "value": "\"iOS\""
     },
     {
+      "filePath": "\/Users\/runner\/work\/dfn-v2-dfinery-ios-sdk\/dfn-v2-dfinery-ios-sdk\/sdk-repo\/DfinerySDKServiceExtension\/DfnLoggerV2.swift",
+      "kind": "StringLiteral",
+      "offset": 1033,
+      "length": 55,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/dfn-v2-dfinery-ios-sdk\/dfn-v2-dfinery-ios-sdk\/sdk-repo\/DfinerySDKServiceExtension\/DfnLoggerV2.swift",
+      "kind": "StringLiteral",
+      "offset": 1068,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/dfn-v2-dfinery-ios-sdk\/dfn-v2-dfinery-ios-sdk\/sdk-repo\/DfinerySDKServiceExtension\/DfnLoggerV2.swift",
+      "kind": "StringLiteral",
+      "offset": 1071,
+      "length": 1,
+      "value": "\".dfineryLoggerSE\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/dfn-v2-dfinery-ios-sdk\/dfn-v2-dfinery-ios-sdk\/sdk-repo\/DfinerySDKServiceExtension\/DfnLoggerV2.swift",
+      "kind": "StringLiteral",
+      "offset": 1134,
+      "length": 15,
+      "value": "\"DfnSELoggerV2\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/dfn-v2-dfinery-ios-sdk\/dfn-v2-dfinery-ios-sdk\/sdk-repo\/DfinerySDKServiceExtension\/DfineryServiceExtension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 243,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/dfn-v2-dfinery-ios-sdk\/dfn-v2-dfinery-ios-sdk\/sdk-repo\/DfinerySDKServiceExtension\/DfineryServiceExtension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 264,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/dfn-v2-dfinery-ios-sdk\/dfn-v2-dfinery-ios-sdk\/sdk-repo\/DfinerySDKServiceExtension\/DfineryServiceExtension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 282,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/dfn-v2-dfinery-ios-sdk\/dfn-v2-dfinery-ios-sdk\/sdk-repo\/DfinerySDKServiceExtension\/DfineryServiceExtension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 301,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/dfn-v2-dfinery-ios-sdk\/dfn-v2-dfinery-ios-sdk\/sdk-repo\/DfinerySDKServiceExtension\/DfineryServiceExtension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 322,
+      "length": 1,
+      "value": "2"
+    },
+    {
       "filePath": "\/Users\/runner\/work\/dfn-v2-dfinery-ios-sdk\/dfn-v2-dfinery-ios-sdk\/sdk-repo\/DfinerySDKServiceExtension\/DfineryServiceExtension.swift",
       "kind": "StringLiteral",
-      "offset": 9007,
+      "offset": 12708,
       "length": 47,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/runner\/work\/dfn-v2-dfinery-ios-sdk\/dfn-v2-dfinery-ios-sdk\/sdk-repo\/DfinerySDKServiceExtension\/DfineryServiceExtension.swift",
       "kind": "StringLiteral",
-      "offset": 9042,
+      "offset": 12743,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/runner\/work\/dfn-v2-dfinery-ios-sdk\/dfn-v2-dfinery-ios-sdk\/sdk-repo\/DfinerySDKServiceExtension\/DfineryServiceExtension.swift",
       "kind": "StringLiteral",
-      "offset": 9045,
+      "offset": 12746,
       "length": 1,
       "value": "\".dfinery\""
     },
     {
       "filePath": "\/Users\/runner\/work\/dfn-v2-dfinery-ios-sdk\/dfn-v2-dfinery-ios-sdk\/sdk-repo\/DfinerySDKServiceExtension\/DfineryServiceExtension.swift",
       "kind": "StringLiteral",
-      "offset": 9099,
+      "offset": 12800,
       "length": 11,
       "value": "\"DfnLogger\""
     }

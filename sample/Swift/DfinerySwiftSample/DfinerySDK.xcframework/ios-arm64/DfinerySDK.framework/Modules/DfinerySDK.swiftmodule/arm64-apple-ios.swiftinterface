@@ -17,9 +17,23 @@ import _SwiftConcurrencyShims
 import os
 @objc @_inheritsConvenienceInitializers @objcMembers final public class DFConfig : ObjectiveC.NSObject {
   @objc public static let IS_DEBUG: Swift.String
-  @objc public static let LOG_ENABLE: Swift.String
+  @objc @available(*, deprecated, renamed: "LOG_LEVEL", message: "Use {DFConfig.LOG_LEVEL: DFLogLevel}")
+  public static let LOG_ENABLE: Swift.String
+  @objc public static let LOG_LEVEL: Swift.String
   @objc override dynamic public init()
   @objc deinit
+}
+@objc public enum DFLogLevel : Swift.Int {
+  case error = 6
+  case warning = 5
+  case info = 4
+  case debug = 3
+  case verbose = 2
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
 }
 @objc @_inheritsConvenienceInitializers @objcMembers final public class DFEvent : ObjectiveC.NSObject {
   @objc public static let SIGN_UP: Swift.String
@@ -141,3 +155,8 @@ extension DfinerySDK._AnyEncodable {
   @objc final public func canHandleForeground(_ notification: UserNotifications.UNNotification, completionHandler: @escaping (UserNotifications.UNNotificationPresentationOptions) -> ()) -> Swift.Bool
   @objc deinit
 }
+extension DfinerySDK.DFLogLevel : Swift.Comparable {
+  public static func < (lhs: DfinerySDK.DFLogLevel, rhs: DfinerySDK.DFLogLevel) -> Swift.Bool
+}
+extension DfinerySDK.DFLogLevel : Swift.Hashable {}
+extension DfinerySDK.DFLogLevel : Swift.RawRepresentable {}

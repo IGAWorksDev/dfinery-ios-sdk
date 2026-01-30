@@ -302,11 +302,20 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 
 #if defined(__OBJC__)
+typedef SWIFT_ENUM_NAMED(NSInteger, DFNSELogLevel, "DFLogLevel", open) {
+  DFNSELogLevelError = 6,
+  DFNSELogLevelWarning = 5,
+  DFNSELogLevelInfo = 4,
+  DFNSELogLevelDebug = 3,
+  DFNSELogLevelVerbose = 2,
+};
+
 @class UNMutableNotificationContent;
 @class UNNotificationContent;
 
 SWIFT_CLASS("_TtC26DfinerySDKServiceExtension23DfineryServiceExtension")
 @interface DfineryServiceExtension : NSObject
++ (void)enableLoggingWithLevel:(enum DFNSELogLevel)level;
 + (BOOL)canHandleWithContent:(UNMutableNotificationContent * _Nonnull)content contentHandler:(void (^ _Nonnull)(UNNotificationContent * _Nonnull))contentHandler SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
