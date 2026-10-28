@@ -151,6 +151,7 @@ extension DfinerySDK._AnyEncodable {
   @objc(setPushTokenWithData:) final public func set(pushToken: Foundation.Data)
   @objc final public func enableSDK()
   @objc final public func disableSDK()
+  @objc final public func attAuthorized(_ authorized: Swift.Bool)
   @objc final public func canHandleNotification(response: UserNotifications.UNNotificationResponse) -> Swift.Bool
   @objc final public func canHandleForeground(_ notification: UserNotifications.UNNotification, completionHandler: @escaping (UserNotifications.UNNotificationPresentationOptions) -> ()) -> Swift.Bool
   @_spi(Pendable) @objc final public func pend()

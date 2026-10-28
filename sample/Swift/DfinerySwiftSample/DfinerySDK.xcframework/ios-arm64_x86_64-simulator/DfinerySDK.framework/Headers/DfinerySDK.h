@@ -503,6 +503,24 @@ SWIFT_CLASS("_TtC10DfinerySDK7Dfinery")
 - (void)setPushTokenWithData:(NSData * _Nonnull)pushToken;
 - (void)enableSDK;
 - (void)disableSDK;
+/// ATT 권한 요청 결과를 SDK에 전달
+/// note:
+/// ATTrackingManager.requestTrackingAuthorization 콜백에서 호출
+/// 아키텍처 노트:
+/// <ul>
+///   <li>
+///     현재 UserDefaults 직접 저장 방식은 기존 패턴(DefaultStorage → Repository)과 불일치
+///   </li>
+///   <li>
+///     서버 전송 불필요한 로컬 전용 데이터이므로 단순 구현 유지
+///   </li>
+///   <li>
+///     향후 서버 전송 필요 시 DeviceProfile에 필드 추가 및 DeviceInfoRepository로 리팩토링 필요
+///   </li>
+/// </ul>
+/// \param authorized ATT 권한 허용 여부 (<code>.authorized</code> 시 <code>true</code>, 그 외 <code>false</code>)
+///
+- (void)attAuthorized:(BOOL)authorized;
 - (BOOL)canHandleNotificationWithResponse:(UNNotificationResponse * _Nonnull)response SWIFT_WARN_UNUSED_RESULT;
 - (BOOL)canHandleForeground:(UNNotification * _Nonnull)notification completionHandler:(void (^ _Nonnull)(UNNotificationPresentationOptions))completionHandler SWIFT_WARN_UNUSED_RESULT;
 - (void)pend;
@@ -1022,6 +1040,24 @@ SWIFT_CLASS("_TtC10DfinerySDK7Dfinery")
 - (void)setPushTokenWithData:(NSData * _Nonnull)pushToken;
 - (void)enableSDK;
 - (void)disableSDK;
+/// ATT 권한 요청 결과를 SDK에 전달
+/// note:
+/// ATTrackingManager.requestTrackingAuthorization 콜백에서 호출
+/// 아키텍처 노트:
+/// <ul>
+///   <li>
+///     현재 UserDefaults 직접 저장 방식은 기존 패턴(DefaultStorage → Repository)과 불일치
+///   </li>
+///   <li>
+///     서버 전송 불필요한 로컬 전용 데이터이므로 단순 구현 유지
+///   </li>
+///   <li>
+///     향후 서버 전송 필요 시 DeviceProfile에 필드 추가 및 DeviceInfoRepository로 리팩토링 필요
+///   </li>
+/// </ul>
+/// \param authorized ATT 권한 허용 여부 (<code>.authorized</code> 시 <code>true</code>, 그 외 <code>false</code>)
+///
+- (void)attAuthorized:(BOOL)authorized;
 - (BOOL)canHandleNotificationWithResponse:(UNNotificationResponse * _Nonnull)response SWIFT_WARN_UNUSED_RESULT;
 - (BOOL)canHandleForeground:(UNNotification * _Nonnull)notification completionHandler:(void (^ _Nonnull)(UNNotificationPresentationOptions))completionHandler SWIFT_WARN_UNUSED_RESULT;
 - (void)pend;

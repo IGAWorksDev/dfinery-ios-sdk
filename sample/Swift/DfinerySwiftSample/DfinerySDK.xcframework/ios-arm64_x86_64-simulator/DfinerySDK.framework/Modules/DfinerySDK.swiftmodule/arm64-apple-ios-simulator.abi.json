@@ -5501,6 +5501,16 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DfinerySDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -6158,6 +6168,35 @@
               "Final",
               "AccessControl",
               "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "attAuthorized",
+            "printedName": "attAuthorized(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@DfinerySDK@objc(cs)Dfinery(im)attAuthorized:",
+            "mangledName": "$s10DfinerySDK0A0C13attAuthorizedyySbF",
+            "moduleName": "DfinerySDK",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -7297,6 +7336,13 @@
       "offset": 585,
       "length": 1,
       "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/dfn-v2-dfinery-ios-sdk\/dfn-v2-dfinery-ios-sdk\/sdk-repo\/DfinerySDK\/Domain\/UseCase\/UpdateDevicePropertyUseCase.swift",
+      "kind": "StringLiteral",
+      "offset": 510,
+      "length": 22,
+      "value": "\"updateDeviceProperty\""
     },
     {
       "filePath": "\/Users\/runner\/work\/dfn-v2-dfinery-ios-sdk\/dfn-v2-dfinery-ios-sdk\/sdk-repo\/DfinerySDK\/Application\/Controller.swift",
