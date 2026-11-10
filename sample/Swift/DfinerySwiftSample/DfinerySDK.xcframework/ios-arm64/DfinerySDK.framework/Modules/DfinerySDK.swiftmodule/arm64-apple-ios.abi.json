@@ -6521,14 +6521,14 @@
     {
       "filePath": "\/Users\/runner\/work\/dfn-v2-dfinery-ios-sdk\/dfn-v2-dfinery-ios-sdk\/sdk-repo\/DfinerySDK\/Domain\/UseCase\/ResetIdentityUseCase.swift",
       "kind": "StringLiteral",
-      "offset": 676,
+      "offset": 620,
       "length": 15,
       "value": "\"resetIdentity\""
     },
     {
       "filePath": "\/Users\/runner\/work\/dfn-v2-dfinery-ios-sdk\/dfn-v2-dfinery-ios-sdk\/sdk-repo\/DfinerySDK\/Domain\/UseCase\/SetUserProfileUseCase.swift",
       "kind": "StringLiteral",
-      "offset": 451,
+      "offset": 427,
       "length": 16,
       "value": "\"setUserProfile\""
     },
@@ -7025,42 +7025,42 @@
     {
       "filePath": "\/Users\/runner\/work\/dfn-v2-dfinery-ios-sdk\/dfn-v2-dfinery-ios-sdk\/sdk-repo\/DfinerySDK\/Domain\/UseCase\/ApSspPushClickUseCase.swift",
       "kind": "StringLiteral",
-      "offset": 511,
+      "offset": 479,
       "length": 9,
       "value": "\"ad push\""
     },
     {
       "filePath": "\/Users\/runner\/work\/dfn-v2-dfinery-ios-sdk\/dfn-v2-dfinery-ios-sdk\/sdk-repo\/DfinerySDK\/Domain\/UseCase\/PushActionUseCase.swift",
       "kind": "StringLiteral",
-      "offset": 555,
+      "offset": 515,
       "length": 6,
       "value": "\"push\""
     },
     {
       "filePath": "\/Users\/runner\/work\/dfn-v2-dfinery-ios-sdk\/dfn-v2-dfinery-ios-sdk\/sdk-repo\/DfinerySDK\/Domain\/UseCase\/DidBecomeActiveUseCase.swift",
       "kind": "StringLiteral",
-      "offset": 689,
+      "offset": 633,
       "length": 9,
       "value": "\"session\""
     },
     {
       "filePath": "\/Users\/runner\/work\/dfn-v2-dfinery-ios-sdk\/dfn-v2-dfinery-ios-sdk\/sdk-repo\/DfinerySDK\/Domain\/UseCase\/DidBecomeActiveUseCase.swift",
       "kind": "IntegerLiteral",
-      "offset": 1506,
+      "offset": 1450,
       "length": 2,
       "value": "60"
     },
     {
       "filePath": "\/Users\/runner\/work\/dfn-v2-dfinery-ios-sdk\/dfn-v2-dfinery-ios-sdk\/sdk-repo\/DfinerySDK\/Domain\/UseCase\/DidBecomeActiveUseCase.swift",
       "kind": "StringLiteral",
-      "offset": 1542,
+      "offset": 1486,
       "length": 16,
       "value": "\"df_end_session\""
     },
     {
       "filePath": "\/Users\/runner\/work\/dfn-v2-dfinery-ios-sdk\/dfn-v2-dfinery-ios-sdk\/sdk-repo\/DfinerySDK\/Domain\/UseCase\/DidBecomeActiveUseCase.swift",
       "kind": "StringLiteral",
-      "offset": 1594,
+      "offset": 1538,
       "length": 18,
       "value": "\"df_start_session\""
     },
@@ -7270,35 +7270,35 @@
     {
       "filePath": "\/Users\/runner\/work\/dfn-v2-dfinery-ios-sdk\/dfn-v2-dfinery-ios-sdk\/sdk-repo\/DfinerySDK\/Domain\/UseCase\/LogEventUseCase.swift",
       "kind": "StringLiteral",
-      "offset": 830,
+      "offset": 758,
       "length": 30,
       "value": "\"com.dfinery.LogEventJobQueue\""
     },
     {
       "filePath": "\/Users\/runner\/work\/dfn-v2-dfinery-ios-sdk\/dfn-v2-dfinery-ios-sdk\/sdk-repo\/DfinerySDK\/Domain\/UseCase\/LogEventUseCase.swift",
       "kind": "IntegerLiteral",
-      "offset": 889,
+      "offset": 817,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/dfn-v2-dfinery-ios-sdk\/dfn-v2-dfinery-ios-sdk\/sdk-repo\/DfinerySDK\/Domain\/UseCase\/LogEventUseCase.swift",
       "kind": "StringLiteral",
-      "offset": 1100,
+      "offset": 1028,
       "length": 10,
       "value": "\"logEvent\""
     },
     {
       "filePath": "\/Users\/runner\/work\/dfn-v2-dfinery-ios-sdk\/dfn-v2-dfinery-ios-sdk\/sdk-repo\/DfinerySDK\/Domain\/UseCase\/FlushUseCase.swift",
       "kind": "StringLiteral",
-      "offset": 523,
+      "offset": 483,
       "length": 12,
       "value": "\"flushEvent\""
     },
     {
       "filePath": "\/Users\/runner\/work\/dfn-v2-dfinery-ios-sdk\/dfn-v2-dfinery-ios-sdk\/sdk-repo\/DfinerySDK\/Domain\/UseCase\/SetDeviceTokenUseCase.swift",
       "kind": "StringLiteral",
-      "offset": 453,
+      "offset": 429,
       "length": 6,
       "value": "\"push\""
     },
@@ -7340,7 +7340,7 @@
     {
       "filePath": "\/Users\/runner\/work\/dfn-v2-dfinery-ios-sdk\/dfn-v2-dfinery-ios-sdk\/sdk-repo\/DfinerySDK\/Domain\/UseCase\/UpdateDevicePropertyUseCase.swift",
       "kind": "StringLiteral",
-      "offset": 510,
+      "offset": 486,
       "length": 22,
       "value": "\"updateDeviceProperty\""
     },
@@ -7382,70 +7382,70 @@
     {
       "filePath": "\/Users\/runner\/work\/dfn-v2-dfinery-ios-sdk\/dfn-v2-dfinery-ios-sdk\/sdk-repo\/DfinerySDK\/Domain\/UseCase\/SdkInitUseCase.swift",
       "kind": "StringLiteral",
-      "offset": 945,
+      "offset": 873,
       "length": 6,
       "value": "\"init\""
     },
     {
       "filePath": "\/Users\/runner\/work\/dfn-v2-dfinery-ios-sdk\/dfn-v2-dfinery-ios-sdk\/sdk-repo\/DfinerySDK\/Domain\/UseCase\/SdkInitUseCase.swift",
       "kind": "StringLiteral",
-      "offset": 2025,
+      "offset": 1953,
       "length": 17,
       "value": "\"DFN_FLUSH_COUNT\""
     },
     {
       "filePath": "\/Users\/runner\/work\/dfn-v2-dfinery-ios-sdk\/dfn-v2-dfinery-ios-sdk\/sdk-repo\/DfinerySDK\/Domain\/UseCase\/SdkInitUseCase.swift",
       "kind": "StringLiteral",
-      "offset": 2083,
+      "offset": 2011,
       "length": 20,
       "value": "\"DFN_FLUSH_INTERVAL\""
     },
     {
       "filePath": "\/Users\/runner\/work\/dfn-v2-dfinery-ios-sdk\/dfn-v2-dfinery-ios-sdk\/sdk-repo\/DfinerySDK\/Domain\/UseCase\/SdkInitUseCase.swift",
       "kind": "StringLiteral",
-      "offset": 2141,
+      "offset": 2069,
       "length": 17,
       "value": "\"DFN_RETRY_COUNT\""
     },
     {
       "filePath": "\/Users\/runner\/work\/dfn-v2-dfinery-ios-sdk\/dfn-v2-dfinery-ios-sdk\/sdk-repo\/DfinerySDK\/Domain\/UseCase\/SdkInitUseCase.swift",
       "kind": "StringLiteral",
-      "offset": 2190,
+      "offset": 2118,
       "length": 11,
       "value": "\"DFN_IS_QA\""
     },
     {
       "filePath": "\/Users\/runner\/work\/dfn-v2-dfinery-ios-sdk\/dfn-v2-dfinery-ios-sdk\/sdk-repo\/DfinerySDK\/Domain\/UseCase\/SdkInitUseCase.swift",
       "kind": "StringLiteral",
-      "offset": 2234,
+      "offset": 2162,
       "length": 12,
       "value": "\"DFN_SCHEME\""
     },
     {
       "filePath": "\/Users\/runner\/work\/dfn-v2-dfinery-ios-sdk\/dfn-v2-dfinery-ios-sdk\/sdk-repo\/DfinerySDK\/Domain\/UseCase\/SdkInitUseCase.swift",
       "kind": "StringLiteral",
-      "offset": 2283,
+      "offset": 2211,
       "length": 16,
       "value": "\"DFN_FORCE_SYNC\""
     },
     {
       "filePath": "\/Users\/runner\/work\/dfn-v2-dfinery-ios-sdk\/dfn-v2-dfinery-ios-sdk\/sdk-repo\/DfinerySDK\/Domain\/UseCase\/InAppMessageImpressionUseCase.swift",
       "kind": "StringLiteral",
-      "offset": 639,
+      "offset": 599,
       "length": 14,
       "value": "\"inAppMessage\""
     },
     {
       "filePath": "\/Users\/runner\/work\/dfn-v2-dfinery-ios-sdk\/dfn-v2-dfinery-ios-sdk\/sdk-repo\/DfinerySDK\/Domain\/UseCase\/DisconnectDeviceIdentityUseCase.swift",
       "kind": "StringLiteral",
-      "offset": 504,
+      "offset": 472,
       "length": 18,
       "value": "\"disconnectDevice\""
     },
     {
       "filePath": "\/Users\/runner\/work\/dfn-v2-dfinery-ios-sdk\/dfn-v2-dfinery-ios-sdk\/sdk-repo\/DfinerySDK\/Domain\/UseCase\/SetidentityUseCase.swift",
       "kind": "StringLiteral",
-      "offset": 706,
+      "offset": 650,
       "length": 13,
       "value": "\"setIdentity\""
     },
@@ -7599,14 +7599,14 @@
     {
       "filePath": "\/Users\/runner\/work\/dfn-v2-dfinery-ios-sdk\/dfn-v2-dfinery-ios-sdk\/sdk-repo\/DfinerySDK\/Domain\/UseCase\/DisableUseCase.swift",
       "kind": "StringLiteral",
-      "offset": 773,
+      "offset": 701,
       "length": 12,
       "value": "\"disableSDK\""
     },
     {
       "filePath": "\/Users\/runner\/work\/dfn-v2-dfinery-ios-sdk\/dfn-v2-dfinery-ios-sdk\/sdk-repo\/DfinerySDK\/Domain\/UseCase\/InAppMessageClickUseCase.swift",
       "kind": "StringLiteral",
-      "offset": 602,
+      "offset": 562,
       "length": 14,
       "value": "\"inAppMessage\""
     }
